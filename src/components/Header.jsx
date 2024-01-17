@@ -30,7 +30,7 @@ const Header = () => {
     return (
         <div>
 
-            <header className='py-5 mb-12 max-950:mb-10 max-550:mb-8 max-550:py-4'>
+            <header className='py-5 max-550:py-4'>
                 <div className="max-w-[1280px] w-full px-5 mx-auto flex items-center justify-between max-dm:mb-5">
 
                     {/* Logo */}

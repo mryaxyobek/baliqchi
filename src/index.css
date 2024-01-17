@@ -25,6 +25,10 @@
     @apply font-bold text-4xl max-950:text-3xl;
   }
 
+  h2 {
+    @apply font-bold text-[32px] leading-9 max-950:text-[28px];
+  }
+
   h1,
   h2,
   h3,
