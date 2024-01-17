@@ -7,6 +7,7 @@ import MainRoot from './layouts/MainRoot';
 
 // pages 
 import Home from './pages/Home';
+import Contact from './pages/Contact';
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
     createRoutesFromElements(
       <Route path='/' element={<MainRoot />}>
         <Route index element={<Home />} />
+        <Route path='/contact' element={<Contact />} />
       </Route>
     )
   )
