@@ -7,15 +7,14 @@ const Contact = () => {
                 <div className="flex flex-col items-start max-lg:items-center">
                     <h1 className='mb-8'>Bog'lanish</h1>
                     <div className="w-full max-lg:text-center mb-8">
-                        <p className='text-2xl font-bold mb-5 text-[#2E4374]'>Andijon viloyati, Baliqchi tumani, Baliqchi QFY Baliqchi shox ko`chasi</p>
+                        <p className='text-2xl font-bold mb-5 text-[#2E4374]'>Andijon viloyati, Baliqchi tumani, Baliqchishox ko`chasi 1 - uy</p>
                         <hr className='w-11/12 h-[1px] bg-gray-300 rounded-3xl' />
                     </div>
                     <ul className='space-y-1'>
-                        <li className=''><b className='text-[#2E4374]'>Manzil: </b>VRXJ+GV5, Alimbek, Andijon Viloyati, Uzbekistan</li>
+                        <li className=''><b className='text-[#2E4374]'>Manzil: </b> Andijon Viloyati, Baliqchi tuman hokimligi</li>
                         <li className=''><b className='text-[#2E4374]'>Ish kunlari: </b>Dushanba - Juma</li>
-                        <li className=''><b className='text-[#2E4374]'>Ish vaqti: </b>Dushanba-Juma 8:00 - 19:00</li>
-                        <li className=''><b className='text-[#2E4374]'>E-pochta: </b>Example@gmail.com</li>
-                        <li className=''><b className='text-[#2E4374]'>Telefon raqam: </b>+998 93 092 25 87</li>
+                        <li className=''><b className='text-[#2E4374]'>Ish vaqti: </b>Dushanba-Juma 8:00 - 18:00</li>
+                        <li className=''><b className='text-[#2E4374]'>Telefon raqam: </b>+998 74 323 22 11</li>
                     </ul>
                 </div>
 

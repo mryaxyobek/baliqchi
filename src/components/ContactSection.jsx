@@ -12,12 +12,12 @@ const ContactSection = () => {
                         <ul>
                             <li className='flex items-center justify-end bg-[#f5f6fa] rounded font-medium text-[14px] p-3 mb-1'>
                                 <span className='min-w-[90px] text-[#2687d1]'>Manzil:</span>
-                                <p className='w-full text-[#152340]'>Toshkent shahri, Sergeli tumani, Sug'diyona ko'chasi 1-uy <br /> 100085</p>
+                                <p className='w-full text-[#152340]'>Andijon viloyati, Baliqchi tumani, Baliqchishox ko'chasi 1-uy</p>
                             </li>
                             <li className='flex items-center justify-end border-2 border-[#f5f6fa] rounded font-medium text-[14px] p-3 mb-1'>
                                 <span className='min-w-[90px] text-[#2687d1]'>Telefon:</span>
                                 <p className='w-full text-[#152340]'>
-                                    (+99871) 258 65 55</p>
+                                    +998 74 323 22 11</p>
                             </li>
                             <li className='flex items-center justify-end bg-[#f5f6fa] rounded font-medium text-[14px] p-3 mb-1'>
                                 <span className='min-w-[90px] text-[#2687d1]'>Ish kunlari:</span>
@@ -25,8 +25,7 @@ const ContactSection = () => {
                             </li>
                             <li className='flex items-center justify-end border-2 border-[#f5f6fa] rounded font-medium text-[14px] p-3 mb-1'>
                                 <span className='min-w-[90px] text-[#2687d1]'>Transport:</span>
-                                <p className='w-full text-[#152340]'>
-                                    Sergeli hokimiyati bekati</p>
+                                <p className='w-full text-[#152340]'>Baliqchi tuman hokimligi</p>
                             </li>
                         </ul>
                     </div>

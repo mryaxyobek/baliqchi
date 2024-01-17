@@ -88,7 +88,7 @@ const Footer = () => {
 
                         <div className='flex flex-col max-950:flex-row gap-5 text-white max-550:flex-col'>
                             <div className='rounded-xl p-3 bg-[#2E4374]'>
-                                <p className='font-medium text-base'>Manzil: Anidijon shahri, Baliqchi <br /> tumani, Sug'diyona ko'chasi 1-uy <br /> 100085</p>
+                                <p className='font-medium text-base'>Manzil: Anidijon viloyati, Baliqchi <br /> tumani, Baliqchishox ko'chasi 1-uy</p>
                             </div>
 
                             <div className='rounded-xl p-3 bg-[#2E4374]'>

@@ -10,7 +10,7 @@ import hokim from '../assets/images/other/hokim.png';
 import baliqchi from '../assets/images/svg/Frame.svg';
 
 const Deputatlar = () => {
-    const orinbosarlarData = orinbosarlar.slice(0, 3)
+    const orinbosarlarData = orinbosarlar;
     return (
         <div className="w-full flex justify-center py-12">
             <div className="container">

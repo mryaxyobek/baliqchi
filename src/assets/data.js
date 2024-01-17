@@ -18,26 +18,6 @@ export const news = [
         telephone: '+9989',
         tugatishVaqti: '18:00',
         title:
-            "Abdulla Aripovga 8 ta tuman hokimining lavozimiga loyiqligini hal qilish topshirildi",
-        subTitle:
-            "Ushbu hokimlar yil davomida auksionga umuman yer chiqarmagani qayd etilgan.",
-        image: new1,
-        description: [
-            "Bosh vazirga Andijon viloyatining Baliqchi va Jalalquduq, Toshkent shahrining Bektemir, Mirobod, Olmazor, Chilonzor, Yunusobod va Yakkasaroy tumanlari hokimlarining lavozimiga loyiqligini hal qilish topshirildi. Bu haqda prezident Shavkat Mirziyoyev raisligida 2024 yilda makroiqtisodiy barqarorlik va iqtisodiy rivojlanishni ta’minlash bo‘yicha ustuvor vazifalar yuzasidan videoselektor yig‘ilishda ma’lum qilingan.",
-            "Bosh vazirga yil davomida auksionga umuman yer chiqarmagan Baliqchi, Jalaquduq, Bektemir, Mirobod, Olmazor, Chilonzor, Yunusobod, Yakkasaroy tumanlari hokimlarining lavozimiga loyiqligini hal qilish topshirildi», deyiladi xabarda.",
-            "Davaktiv agentligi yerlarni auksionda sotish bo‘yicha 4 trillion so‘mlik rejani tumanbay ishlab chiqishi va ijrosini ta’minlashi belgilandi.",
-            "Tumanning master rejasi bo‘lsa, bu juda katta mablag‘, tadbirkorlar va bandlik uchun manba bo‘ladi. Lekin hozirgacha bor-yo‘g‘i 17 ta kichik aholi punktining master rejasi tayyorlandi.",
-            "Iqtisodiy kompleks rahbariyatiga yil yakuniga qadar 70 ta, kelasi yili barcha tumanlarning master rejalarini ishlab chiqishga topshiriq berildi.",
-        ],
-        date: new Date(2024, 0, 5),
-    },
-    {
-        id: randomId(),
-        qabulKuni: 'Har kuni',
-        boshlashVaqti: '8:00',
-        telephone: '+9989',
-        tugatishVaqti: '18:00',
-        title:
             "Makroiqtisodiy barqarorlik va iqtisodiy rivojlanishni ta’minlash bo‘yicha ustuvor vazifalar muhokama qilindi",
         subTitle:
             "Prezident Shavkat Mirziyoyev raisligida 16 yanvar kuni 2024 yilda makroiqtisodiy barqarorlik va iqtisodiy rivojlanishni ta’minlash bo‘yicha ustuvor vazifalar muhokamasi yuzasidan videoselektor yig‘ilishi o‘tkazildi.",
