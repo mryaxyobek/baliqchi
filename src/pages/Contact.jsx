@@ -7,7 +7,7 @@ const Contact = () => {
                 <div className="flex flex-col items-start max-lg:items-center">
                     <h1 className='mb-8'>Bog'lanish</h1>
                     <div className="w-full max-lg:text-center mb-8">
-                        <p className='text-2xl font-bold mb-5 text-[#2E4374]'>Andijon viloyati, Baliqchi tumani, Baliqchishox ko`chasi 1 - uy</p>
+                        <p className='text-2xl font-bold mb-5 text-[#2E4374]'>Andijon viloyati, Baliqchi tumani, Baliqchi shox ko`chasi 1 - uy</p>
                         <hr className='w-11/12 h-[1px] bg-gray-300 rounded-3xl' />
                     </div>
                     <ul className='space-y-1'>
@@ -18,7 +18,10 @@ const Contact = () => {
                     </ul>
                 </div>
 
-                <form className="w-full flex flex-col items-start gap-5 max-lg:items-center max-[800px]:max-w-[600px]">
+                <form onSubmit={(e) => {
+                    e.preventDefault();
+                    alert('Hozrida sayt test jarayonida')
+                }} className="w-full flex flex-col items-start gap-5 max-lg:items-center max-[800px]:max-w-[600px]">
                     <div className="flex justify-between gap-5 w-full max-950:flex-col">
                         <input type="text" placeholder='F.I.SH' />
                         <input type="tel" placeholder='+998' required pattern="(\+998|8)[\- ]?\d{2}[\- ]?\d{3}[\- ]?\d{2}[\- ]?\d{2}" />

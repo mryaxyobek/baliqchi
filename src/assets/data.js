@@ -13,7 +13,7 @@ import {
 export const news = [
     {
         id: randomId(),
-        qabulKuni: 'Har kuni',
+        qabulKuni: '',
         boshlashVaqti: '8:00',
         telephone: '+9989',
         tugatishVaqti: '18:00',
@@ -32,7 +32,7 @@ export const news = [
     },
     {
         id: randomId(),
-        qabulKuni: 'Har kuni',
+        qabulKuni: '',
         boshlashVaqti: '8:00',
         telephone: '+9989',
         tugatishVaqti: '18:00',
@@ -50,7 +50,7 @@ export const news = [
     },
     {
         id: randomId(),
-        qabulKuni: 'Har kuni',
+        qabulKuni: '',
         boshlashVaqti: '8:00',
         telephone: '+9989',
         tugatishVaqti: '18:00',
@@ -68,7 +68,7 @@ export const news = [
     },
     {
         id: randomId(),
-        qabulKuni: 'Har kuni',
+        qabulKuni: '',
         boshlashVaqti: '8:00',
         telephone: '+9989',
         tugatishVaqti: '18:00',
@@ -86,7 +86,7 @@ export const news = [
     },
     {
         id: randomId(),
-        qabulKuni: 'Har kuni',
+        qabulKuni: '',
         boshlashVaqti: '8:00',
         telephone: '+9989',
         tugatishVaqti: '18:00',
@@ -104,7 +104,7 @@ export const news = [
     },
     {
         id: randomId(),
-        qabulKuni: 'Har kuni',
+        qabulKuni: '',
         boshlashVaqti: '8:00',
         telephone: '+9989',
         tugatishVaqti: '18:00',
@@ -120,7 +120,7 @@ export const news = [
     },
     {
         id: randomId(),
-        qabulKuni: 'Har kuni',
+        qabulKuni: '',
         boshlashVaqti: '8:00',
         telephone: '+9989',
         tugatishVaqti: '18:00',
@@ -137,7 +137,7 @@ export const news = [
     },
     {
         id: randomId(),
-        qabulKuni: 'Har kuni',
+        qabulKuni: '',
         boshlashVaqti: '8:00',
         telephone: '+9989',
         tugatishVaqti: '18:00',
@@ -170,9 +170,8 @@ import gerb from './links-img/gerb.png'
 export const orinbosarlar = [
     {
         id: 1,
-        qabulKuni: 'Har kuni',
+        qabulKuni: 'Dushanba',
         boshlashVaqti: '8:00',
-        telephone: '+9989',
         tugatishVaqti: '18:00',
         telephone: '+9989999002817',
         img: kambagallik,
@@ -187,7 +186,7 @@ export const orinbosarlar = [
     },
     {
         id: 2,
-        qabulKuni: 'Har kuni',
+        qabulKuni: 'Seshanba',
         boshlashVaqti: '8:00',
         telephone: '+9989941144942',
         tugatishVaqti: '18:00',
@@ -201,7 +200,7 @@ export const orinbosarlar = [
     },
     {
         id: 3,
-        qabulKuni: 'Har kuni',
+        qabulKuni: 'Chorshanba',
         boshlashVaqti: '8:00',
         telephone: '+9989990173399',
         tugatishVaqti: '18:00',
@@ -215,7 +214,7 @@ export const orinbosarlar = [
     },
     {
         id: 4,
-        qabulKuni: 'Har kuni',
+        qabulKuni: 'Payshanba',
         boshlashVaqti: '8:00',
         telephone: '+9989932588570',
         tugatishVaqti: '18:00',
@@ -229,7 +228,7 @@ export const orinbosarlar = [
     },
     {
         id: 5,
-        qabulKuni: 'Har kuni',
+        qabulKuni: 'Juma',
         boshlashVaqti: '8:00',
         telephone: '+9989993081308',
         tugatishVaqti: '18:00',
@@ -243,7 +242,7 @@ export const orinbosarlar = [
     },
     {
         id: 6,
-        qabulKuni: 'Har kuni',
+        qabulKuni: 'Shanba',
         boshlashVaqti: '8:00',
         telephone: '+9989996503060',
         tugatishVaqti: '18:00',
@@ -261,7 +260,7 @@ export const orinbosarlar = [
 export const links = [
     {
         id: 1,
-        qabulKuni: 'Har kuni',
+        qabulKuni: '',
         boshlashVaqti: '8:00',
         telephone: '+9989',
         tugatishVaqti: '18:00',
@@ -272,7 +271,7 @@ export const links = [
     },
     {
         id: 2,
-        qabulKuni: 'Har kuni',
+        qabulKuni: '',
         boshlashVaqti: '8:00',
         telephone: '+9989',
         tugatishVaqti: '18:00',
@@ -283,7 +282,7 @@ export const links = [
     },
     {
         id: 3,
-        qabulKuni: 'Har kuni',
+        qabulKuni: '',
         boshlashVaqti: '8:00',
         telephone: '+9989',
         tugatishVaqti: '18:00',
@@ -294,7 +293,7 @@ export const links = [
     },
     {
         id: 4,
-        qabulKuni: 'Har kuni',
+        qabulKuni: '',
         boshlashVaqti: '8:00',
         telephone: '+9989',
         tugatishVaqti: '18:00',
@@ -305,7 +304,7 @@ export const links = [
     },
     {
         id: 5,
-        qabulKuni: 'Har kuni',
+        qabulKuni: '',
         boshlashVaqti: '8:00',
         telephone: '+9989',
         tugatishVaqti: '18:00',
