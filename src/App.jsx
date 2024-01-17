@@ -2,11 +2,12 @@ import React from 'react';
 import { RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
 import { Route } from 'react-router-dom';
 
+// layouts 
+import MainRoot from './layouts/MainRoot';
+
 // pages 
 import Home from './pages/Home';
 
-// layouts 
-import MainRoot from './layouts/MainRoot';
 
 const App = () => {
   const router = createBrowserRouter(
