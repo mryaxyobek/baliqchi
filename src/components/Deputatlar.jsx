@@ -7,7 +7,7 @@ import instagram from '../assets/images/svg/instagram.svg';
 import telegram from '../assets/images/svg/telegram.svg';
 import twitter from '../assets/images/svg/twitter.svg';
 import hokim from '../assets/images/other/hokim.png';
-import baliqchi from '../assets/images/svg/frame.svg';
+import baliqchi from '../assets/images/svg/Frame.svg';
 
 const Deputatlar = () => {
     const orinbosarlarData = orinbosarlar.slice(0, 3)
