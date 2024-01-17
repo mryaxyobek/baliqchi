@@ -13,6 +13,10 @@ import {
 export const news = [
     {
         id: randomId(),
+        qabulKuni: 'Har kuni',
+        boshlashVaqti: '8:00',
+        telephone: '+9989',
+        tugatishVaqti: '18:00',
         title:
             "Abdulla Aripovga 8 ta tuman hokimining lavozimiga loyiqligini hal qilish topshirildi",
         subTitle:
@@ -29,6 +33,10 @@ export const news = [
     },
     {
         id: randomId(),
+        qabulKuni: 'Har kuni',
+        boshlashVaqti: '8:00',
+        telephone: '+9989',
+        tugatishVaqti: '18:00',
         title:
             "Makroiqtisodiy barqarorlik va iqtisodiy rivojlanishni ta’minlash bo‘yicha ustuvor vazifalar muhokama qilindi",
         subTitle:
@@ -44,6 +52,10 @@ export const news = [
     },
     {
         id: randomId(),
+        qabulKuni: 'Har kuni',
+        boshlashVaqti: '8:00',
+        telephone: '+9989',
+        tugatishVaqti: '18:00',
         title: "“Jinoyat omillari” moduli yaratiladi",
         subTitle:
             "Davlatimiz rahbarining “Kriminologiya sohasida ilmiy-amaliy tadqiqot ishlarini tashkil etish chora-tadbirlari to‘g‘risida”gi qarori qabul qilindi.",
@@ -58,6 +70,10 @@ export const news = [
     },
     {
         id: randomId(),
+        qabulKuni: 'Har kuni',
+        boshlashVaqti: '8:00',
+        telephone: '+9989',
+        tugatishVaqti: '18:00',
         title:
             "Ro‘yxatdan o‘tkazmasdan o‘zboshimchalik bilan qurilgan ob’ektlar foydalanishga qabul qilinmaydi",
         subTitle:
@@ -72,6 +88,10 @@ export const news = [
     },
     {
         id: randomId(),
+        qabulKuni: 'Har kuni',
+        boshlashVaqti: '8:00',
+        telephone: '+9989',
+        tugatishVaqti: '18:00',
         title:
             "Qahramon Quronboyev O‘zbekiston mahallalari uyushmasining raisi lavozimiga saylandi",
         subTitle:
@@ -86,6 +106,10 @@ export const news = [
     },
     {
         id: randomId(),
+        qabulKuni: 'Har kuni',
+        boshlashVaqti: '8:00',
+        telephone: '+9989',
+        tugatishVaqti: '18:00',
         title:
             "O‘zbekiston-Rossiya ilm-fan integratsiyasi: amaliy va nazariy mushtaraklik yo‘lida Sankt-Peterburgda mintaqalararo rektorlar konferensiyasi o‘tkazildi",
         subTitle:
@@ -100,6 +124,10 @@ export const news = [
     },
     {
         id: randomId(),
+        qabulKuni: 'Har kuni',
+        boshlashVaqti: '8:00',
+        telephone: '+9989',
+        tugatishVaqti: '18:00',
         title: "Rossiya qurollanish poygasiga qo‘shilmoqchi emas",
         subTitle:
             "Prezident Vladimir Putinning mamlakat mudofaa vazirligi, federal mahkamalar va mudofaa sanoati kompleksi rahbariyati bilan uchrashuvida aytishicha, “Rossiya qurollanish poygasiga qo‘shilishining zarurati yo‘q”.",
@@ -112,6 +140,10 @@ export const news = [
     },
     {
         id: randomId(),
+        qabulKuni: 'Har kuni',
+        boshlashVaqti: '8:00',
+        telephone: '+9989',
+        tugatishVaqti: '18:00',
         title: "O‘zbekiston o‘q otish sporti federatsiyasi rahbariyati saylandi",
         subTitle:
             "Milliy olimpiya qo‘mitasida O‘zbekiston o‘q otish sporti federatsiyasining navbatdagi hisobot-saylov konferensiyasi bo‘lib o‘tdi.",
@@ -125,6 +157,10 @@ export const news = [
     },
     {
         id: randomId(),
+        qabulKuni: 'Har kuni',
+        boshlashVaqti: '8:00',
+        telephone: '+9989',
+        tugatishVaqti: '18:00',
         title:
             "Prezident: bog‘chalarda ta’lim va tarbiya oladigan bolalar soni 600 mingdan 2 millionga yetkazilib, qamrov ko‘lami 70 foizga chiqdi",
         subTitle:
@@ -137,4 +173,165 @@ export const news = [
         ],
         date: new Date(2024, 0, 6),
     },
+];
+
+
+import kambagallik from './links-img/kambagallik.png'
+import qurilish from './links-img/qurilish.jpg'
+import investitsiya from './links-img/investitsiya.png'
+import suv from './links-img/suv.jpg'
+import yoshlar from './links-img/yoshlar.png'
+import xotin from './links-img/xotin.png'
+import lex from './links-img/lex.png';
+import adliya from './links-img/adliya.svg';
+import mygov from './links-img/mygov.png';
+import gerb from './links-img/gerb.png'
+
+export const orinbosarlar = [
+    {
+        id: 1,
+        qabulKuni: 'Har kuni',
+        boshlashVaqti: '8:00',
+        telephone: '+9989',
+        tugatishVaqti: '18:00',
+        telephone: '+9989999002817',
+        img: kambagallik,
+        millati: "o'zbek",
+        ismi: "Yulchiyev Boburmirzo Umarovich",
+        lavozim: `Baliqchi tuman hokimining moliya-iqtisodiyot va kambag'allikni
+    qisqartirish masalalari bo'yicha birinchi o'rinbosari va
+    kambag'allikni qisqartirish bo'limi boshlig'i`,
+        yili: 1972,
+        malumoti: 'oliy',
+        universitet: "Andijon muhandislik iqtisodiyot instituti"
+    },
+    {
+        id: 2,
+        qabulKuni: 'Har kuni',
+        boshlashVaqti: '8:00',
+        telephone: '+9989941144942',
+        tugatishVaqti: '18:00',
+        img: qurilish,
+        millati: "o'zbek",
+        yili: 1973,
+        ismi: "Mamatov Muzaffar Nabievich",
+        lavozim: `Baliqchi tuman hokimining qurilish, kommunikatsiyalar, kommunal xo'jalik, ekologiya va ko'klamzorlashtirish masalalari bo'yicha o'rinbosari`,
+        malumoti: 'oliy',
+        universitet: "Farg'ona politexnika instituti"
+    },
+    {
+        id: 3,
+        qabulKuni: 'Har kuni',
+        boshlashVaqti: '8:00',
+        telephone: '+9989990173399',
+        tugatishVaqti: '18:00',
+        img: investitsiya,
+        millati: "o'zbek",
+        yili: 1991,
+        ismi: "Abdulxomidov Saydullo Abdillojon o'gli",
+        lavozim: `Baliqchi tuman hokimining o'rinbosari - tuman investitsiyalar va tashqi savdo bo'limi boshlig'i`,
+        malumoti: 'oliy',
+        universitet: "Andijon qishloq xo'jaligi instuti"
+    },
+    {
+        id: 4,
+        qabulKuni: 'Har kuni',
+        boshlashVaqti: '8:00',
+        telephone: '+9989932588570',
+        tugatishVaqti: '18:00',
+        img: suv,
+        millati: "o'zbek",
+        yili: 1969,
+        ismi: "Jo'rayev Latifjon Muhammadjonovich",
+        lavozim: `Baliqchi tuman hokimining qishloq va suv xo'jaligi masalalari bo'yicha o'rinbosari`,
+        malumoti: 'oliy',
+        universitet: "Volgograd qishloq xo'jaligi instuti"
+    },
+    {
+        id: 5,
+        qabulKuni: 'Har kuni',
+        boshlashVaqti: '8:00',
+        telephone: '+9989993081308',
+        tugatishVaqti: '18:00',
+        img: yoshlar,
+        millati: "o'zbek",
+        yili: 1988,
+        ismi: "Rahmonov Ahrorbek Rahmatillayevich",
+        lavozim: `Baliqchi tuman hokimining yoshlar siyosati, ijtimoiy rivojlantirish va manaviy-marifiy ishlar bo'yicha o'rinbosari`,
+        malumoti: 'oliy',
+        universitet: "Andijon davlat universiteti"
+    },
+    {
+        id: 6,
+        qabulKuni: 'Har kuni',
+        boshlashVaqti: '8:00',
+        telephone: '+9989996503060',
+        tugatishVaqti: '18:00',
+        img: xotin,
+        millati: "o'zbek",
+        yili: 1976,
+        ismi: "Hojimatova Mohichexra Abdullaevna",
+        lavozim: `Baliqchi tuman hokimining o'rinbosari - oila va xotin-qizlar boshlig'i`,
+        malumoti: 'oliy',
+        universitet: "Andijon qishloq xo'jaligi instituti"
+    },
+];
+
+
+export const links = [
+    {
+        id: 1,
+        qabulKuni: 'Har kuni',
+        boshlashVaqti: '8:00',
+        telephone: '+9989',
+        tugatishVaqti: '18:00',
+        img: gerb,
+        title: 'gov.uz',
+        description: 'Oʻzbekiston Respublikasi Hukumat Portali',
+        url: 'https://gov.uz/uz/'
+    },
+    {
+        id: 2,
+        qabulKuni: 'Har kuni',
+        boshlashVaqti: '8:00',
+        telephone: '+9989',
+        tugatishVaqti: '18:00',
+        img: lex,
+        title: 'Lex.uz',
+        description: 'Oʻzbekiston Respublikasi Qonun hujjatlari maʼlumotlari milliy bazasi',
+        url: 'https://lex.uz/uz/'
+    },
+    {
+        id: 3,
+        qabulKuni: 'Har kuni',
+        boshlashVaqti: '8:00',
+        telephone: '+9989',
+        tugatishVaqti: '18:00',
+        img: adliya,
+        title: 'minjust.uz',
+        description: 'O‘zbekiston Respublikasi Adliya Vazirligi',
+        url: 'https://adliya.uz/'
+    },
+    {
+        id: 4,
+        qabulKuni: 'Har kuni',
+        boshlashVaqti: '8:00',
+        telephone: '+9989',
+        tugatishVaqti: '18:00',
+        img: mygov,
+        title: 'my.gov.uz',
+        description: 'Yagona interaktiv davlat xizmatlari portali',
+        url: 'https://my.gov.uz/oz'
+    },
+    {
+        id: 5,
+        qabulKuni: 'Har kuni',
+        boshlashVaqti: '8:00',
+        telephone: '+9989',
+        tugatishVaqti: '18:00',
+        img: gerb,
+        title: 'https://senat.uz/ru',
+        description: "O'zbekiston Respublikasi Oliy Majlisi Senati",
+        url: 'https://senat.uz/ru'
+    }
 ];

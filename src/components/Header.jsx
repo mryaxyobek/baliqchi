@@ -12,7 +12,7 @@ const Header = () => {
 
     const [openNavbarMenu, setOpenNavbarMenu] = useState(false);
 
-    const items = [
+    const itemss = [
         {
             key: 0,
             label: (
@@ -53,31 +53,110 @@ const Header = () => {
                         <nav>
                             <ul className="flex items-center gap-4 max-950:flex-col max-950:items-end">
                                 <li>
-                                    <Link to='/' className="underline-offset-2">Bosh sahifa</Link>
+                                    <div className="dropdown">
+                                        <div className='dropdown_item'>
+                                            <span className='font-medium !font-[montserrat] text-base'>Hokimiyat haqida</span>
+                                            <img width={16} height={16} src={down} alt="down outline icon" />
+                                        </div>
+                                        <ul className="dropdown_menu">
+                                            <li className='menu_item'>
+                                                <Link to='/'>Hokimiyat tarixi</Link>
+                                            </li>
+                                            <li className='menu_item'>
+                                                <Link to='/contact'>Deputatlar</Link>
+                                            </li>
+                                            <li className='menu_item'>
+                                                <Link to='/contact'>Tashkiliy tuzilma</Link>
+                                            </li>
+                                            <li className='menu_item'>
+                                                <Link to='/contact'>Rahbariyat</Link>
+                                            </li>
+                                            <li className='menu_item'>
+                                                <Link to='/contact'>Markaziy apparant</Link>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </li>
                                 <li>
-                                    <Link to='/about' className="underline-offset-2">Haqida</Link>
+                                    <div className="dropdown">
+                                        <div className='dropdown_item'>
+                                            <span className='font-medium !font-[montserrat] text-base'>Faoliyat</span>
+                                            <img width={16} height={16} src={down} alt="down outline icon" />
+                                        </div>
+                                        <ul className="dropdown_menu">
+                                            <li className='menu_item'>
+                                                <Link to='/'>Harakatlar strategiyasi</Link>
+                                            </li>
+                                            <li className='menu_item'>
+                                                <Link to='/contact'>Davlat dasturlari</Link>
+                                            </li>
+                                            <li className='menu_item'>
+                                                <Link to='/contact'>Normativ - huquqiy hujjatlar</Link>
+                                            </li>
+                                            <li className='menu_item'>
+                                                <Link to='/contact'>Loyihalar</Link>
+                                            </li>
+                                            <li className='menu_item'>
+                                                <Link to='/contact'>Xalqaro munosabat</Link>
+                                            </li>
+                                            <li className='menu_item'>
+                                                <Link to='/contact'>Jamoatchilik kengashi</Link>
+                                            </li>
+                                            <li className='menu_item'>
+                                                <Link to='/contact'>Tadbirkorlik va biznes</Link>
+                                            </li>
+                                            <li className='menu_item'>
+                                                <Link to='/contact'>Iqtisodiy ko'rsatmalar</Link>
+                                            </li>
+                                            <li className='menu_item'>
+                                                <Link to='/contact'>Statistik ma'lumotlar</Link>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </li>
                                 <li>
-                                    <Link to='/managers' className="underline-offset-2">Rahbariyat</Link>
+                                    <div className="dropdown">
+                                        <div className='dropdown_item'>
+                                            <span className='font-medium !font-[montserrat] text-base'>Xizmatlar</span>
+                                            <img width={16} height={16} src={down} alt="down outline icon" />
+                                        </div>
+                                        <ul className="dropdown_menu">
+                                            <li className='menu_item'>
+                                                <Link to='/'>Virtual qabulxona</Link>
+                                            </li>
+                                            <li className='menu_item'>
+                                                <Link to='/contact'>Ochiq ma'lumotlar</Link>
+                                            </li>
+                                            <li className='menu_item'>
+                                                <Link to='/contact'>Bo'sh ish o'rinlari</Link>
+                                            </li>
+                                            <li className='menu_item'>
+                                                <Link to='/contact'>Tender savdolari</Link>
+                                            </li>
+                                            <li className='menu_item'>
+                                                <Link to='/contact'>Litsenziyalash</Link>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </li>
                                 <li>
-                                    <Link to='/news' className="underline-offset-2">Yangiliklar</Link>
-                                </li>
-                                <li>
-                                    <Link to='/contact' className="underline-offset-2">Bog'lanish</Link>
-                                </li>
-                                <li>
-                                    <Dropdown
-                                        menu={{
-                                            items,
-                                        }}
-                                    >
-                                        <Space className='cursor-pointer'>
-                                            <span className='font-medium !font-[montserrat] text-base'>Matbuot</span>
-                                            <img width={24} height={24} src={down} alt="down outline icon" className="" />
-                                        </Space>
-                                    </Dropdown>
+                                    <div className="dropdown">
+                                        <div className='dropdown_item'>
+                                            <span className='font-medium !font-[montserrat] text-base'>Matbuot xizmatlari</span>
+                                            <img width={16} height={16} src={down} alt="down outline icon" />
+                                        </div>
+                                        <ul className="dropdown_menu">
+                                            <li className='menu_item'>
+                                                <Link to='/news'>Yangiliklar</Link>
+                                            </li>
+                                            <li className='menu_item'>
+                                                <Link to='/contact'>Tadbirlar</Link>
+                                            </li>
+                                            <li className='menu_item'>
+                                                <Link to='/contact'>Bog'lansih</Link>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </li>
                             </ul>
                         </nav>

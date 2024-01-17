@@ -18,6 +18,48 @@
     color: #424769;
   }
 
+
+
+
+
+
+  /* .dropdow */
+  .dropdown {
+    @apply relative;
+  }
+
+  .dropdown:hover img {
+    transform: rotate(180deg);
+  }
+
+  .dropdown_item {
+    @apply flex items-center gap-1 cursor-pointer;
+  }
+
+  .dropdown_item img {
+    @apply w-4 h-4 transition-transform duration-300;
+  }
+
+  .dropdown_menu {
+    display: none;
+    @apply absolute bg-white shadow-md rounded-lg space-y-1 p-2 w-60 z-30 max-950:right-0;
+  }
+
+  .dropdown_item:hover~.dropdown_menu {
+    display: block;
+  }
+
+  .dropdown_menu:hover {
+    display: block;
+  }
+
+  .dropdown_menu .menu_item {
+    @apply w-full cursor-pointer;
+  }
+
+  .dropdown_menu .menu_item a {
+    @apply block w-full bg-transparent px-3 py-1 rounded transition-colors !duration-300 hover:bg-slate-200;
+  }
 }
 
 @layer utilities {
