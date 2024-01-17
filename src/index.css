@@ -1,5 +1,5 @@
 /* font  */
-@import url('https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,13 +7,35 @@
 
 /* components  */
 @layer components {
-  .container {
-    @apply max-w-7xl w-full mx-auto px-5;
+  .body {
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+    color: #424769;
+  }
+
+}
+
+@layer utilities {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b,
+  blockquote {
+    color: #424769;
+  }
+
+  a {
+    @apply font-medium;
   }
 }
 
-/* other class name  */
-.body {
-  background: #fff;
-  font-family: 'Onest', sans-serif;
+@layer utilities {
+  .container {
+    @apply max-w-7xl w-full mx-auto px-5;
+  }
 }
