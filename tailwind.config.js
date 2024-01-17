@@ -10,6 +10,11 @@ export default {
         'dark': '#111',
       },
     },
+    screens:{
+      1130:'1130px',
+      950:'950px',
+      550:'550px',
+    }
   },
   plugins: [],
 }

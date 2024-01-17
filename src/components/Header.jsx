@@ -31,7 +31,7 @@ const Header = () => {
     return (
         <div>
 
-            <header className='py-6'>
+            <header className='py-5 mb-12 max-950:mb-10 max-550:mb-8 max-550:py-4'>
                 <div className="max-w-[1280px] w-full px-5 mx-auto flex items-center justify-between max-dm:mb-5">
 
                     {/* Logo */}
@@ -58,16 +58,16 @@ const Header = () => {
                                     <Link to='/' className="underline-offset-2">Bosh sahifa</Link>
                                 </li>
                                 <li>
-                                    <Link to='/' className="underline-offset-2">Haqida</Link>
+                                    <Link to='/about' className="underline-offset-2">Haqida</Link>
                                 </li>
                                 <li>
-                                    <Link to='/' className="underline-offset-2">Rahbariyat</Link>
+                                    <Link to='/managers' className="underline-offset-2">Rahbariyat</Link>
                                 </li>
                                 <li>
-                                    <Link to='/' className="underline-offset-2">Yangiliklar</Link>
+                                    <Link to='/news' className="underline-offset-2">Yangiliklar</Link>
                                 </li>
                                 <li>
-                                    <Link to='/' className="underline-offset-2">Bog'lanish</Link>
+                                    <Link to='/contact' className="underline-offset-2">Bog'lanish</Link>
                                 </li>
                                 <li>
                                     <Dropdown
@@ -75,7 +75,7 @@ const Header = () => {
                                             items,
                                         }}
                                     >
-                                        <Space>
+                                        <Space className='cursor-pointer'>
                                             <span className='font-medium !font-[montserrat] text-base'>Matbuot</span>
                                             <img width={24} height={24} src={down} alt="down outline icon" className="" />
                                         </Space>
@@ -93,46 +93,6 @@ const Header = () => {
                         <img src={hamburger} alt="hamburger" className="w-10 h-10" />
                     </button>
 
-                </div>
-
-
-                <div className="max-w-[1280px] w-full px-5 mx-auto">
-                    {/* Responsive nav */}
-                    <nav className='max-dm:block max-sm:hidden hidden'>
-                        <ul className="flex items-center justify-around">
-                            <li>
-                                <Link href="#" className="underline-offset-2">Bosh sahifa</Link>
-                            </li>
-                            <li>
-                                <Link href="#" className="underline-offset-2">Haqida</Link>
-                            </li>
-                            <li>
-                                <Link href="#" className="underline-offset-2">Rahbariyat</Link>
-                            </li>
-                            <li>
-                                <Link href="#" className="underline-offset-2">Yangliklar</Link>
-                            </li>
-                            <li>
-                                <Link href="#" className="underline-offset-2">Bog'lanish</Link>
-                            </li>
-                            <li>
-                                <Link href="#" className="underline-offset-2">
-                                    <Dropdown
-                                        menu={{
-                                            items,
-                                        }}
-                                    >
-                                        <Link onClick={(e) => e.preventDefault()}>
-                                            <Space>
-                                                Matbutot
-                                                <DownOutlined />
-                                            </Space>
-                                        </Link>
-                                    </Dropdown>
-                                </Link>
-                            </li>
-                        </ul>
-                    </nav>
                 </div>
             </header>
         </div>
