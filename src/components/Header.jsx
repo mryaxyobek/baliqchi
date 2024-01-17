@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
-import { DownOutlined, SmileOutlined } from '@ant-design/icons';
 import { Dropdown, Space } from 'antd';
 
 // images
@@ -42,7 +41,6 @@ const Header = () => {
                             <h1 className="font-bold text-xl max-550:text-lg">Baliqchi hokimiyati</h1>
                             <p className="text-base font-normal">Rasmiy web sayti</p>
                         </div>
-
                     </Link>
                     {/* overlay */}
                     <div onClick={() => setOpenNavbarMenu(false)} className={`${openNavbarMenu ? 'block' : 'hidden'} fixed z-10 min-w-full h-screen bg-black bg-opacity-75 top-0 right-0`}></div>
