@@ -19,6 +19,7 @@ import JamoatchilikKengashi from './pages/JamoatchilikKengashi';
 import XalqaroMunosabat from './pages/XalqaroMunosabat';
 import HarakatlarStrategiyasi from './pages/HarakatlarStrategiyasi';
 import Loyihalar from './pages/Loyihalar';
+import NotFound from './pages/NotFound';
 
 
 const App = () => {
@@ -46,6 +47,7 @@ const App = () => {
 
         <Route path='/service' element={<Service />} >
         </Route>
+        <Route path='*' element={<NotFound />} />
       </Route>
     )
   )
