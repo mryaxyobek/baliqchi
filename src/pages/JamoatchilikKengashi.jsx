@@ -7,7 +7,7 @@ const JamoatchilikKengashi = () => {
         scrollTo(0, 0);
     });
     return (
-        <div className='py-12 max-800:py-10'>
+        <div className='py-12 max-800:py-10 max-550:pt-6'>
             <div className='flex gap-5 container max-550:flex-col'>
                 <div>
                     <h1 className='mb-5'>Jamoatchilik kengashi</h1>

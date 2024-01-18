@@ -21,6 +21,7 @@ import HarakatlarStrategiyasi from './pages/HarakatlarStrategiyasi';
 import Loyihalar from './pages/Loyihalar';
 import NotFound from './pages/NotFound';
 import StatistikMalumotlar from './pages/StatistikMalumotlar';
+import DavlatDasturlari from './pages/DavlatDasturlari';
 
 
 const App = () => {
@@ -44,6 +45,7 @@ const App = () => {
           <Route path='xalqaro-munosabat' element={<XalqaroMunosabat />} />
           <Route path='harakatlar-strategiyasi' element={<HarakatlarStrategiyasi />} />
           <Route path='statistik-malumotlar' element={<StatistikMalumotlar />} />
+          <Route path='davlat-dasturlari' element={<DavlatDasturlari />} />
           <Route path='loyihalar' element={<Loyihalar />} />
         </Route>
 
