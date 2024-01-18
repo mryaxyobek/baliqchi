@@ -18,6 +18,7 @@ import IqtisodiyKorsatmalar from './pages/IqtisodiyKorsatmalar';
 import JamoatchilikKengashi from './pages/JamoatchilikKengashi';
 import XalqaroMunosabat from './pages/XalqaroMunosabat';
 import HarakatlarStrategiyasi from './pages/HarakatlarStrategiyasi';
+import Loyihalar from './pages/Loyihalar';
 
 
 const App = () => {
@@ -40,6 +41,7 @@ const App = () => {
           <Route path='jamoatchilik-kengashi' element={<JamoatchilikKengashi />} />
           <Route path='xalqaro-munosabat' element={<XalqaroMunosabat />} />
           <Route path='harakatlar-strategiyasi' element={<HarakatlarStrategiyasi />} />
+          <Route path='loyihalar' element={<Loyihalar />} />
         </Route>
 
         <Route path='/service' element={<Service />} >

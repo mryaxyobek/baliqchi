@@ -29,7 +29,7 @@ const Orinbosarlar = () => {
                                         />
                                         <div className="p-5 text-[#27185d] w-[70%] max-550:w-full max-550:!ml-0">
                                             <div className="space-y-3">
-                                                <p className="text-[18px]">O'rinbosar</p>
+                                                <p className="text-[18px]">{orinbosar.lavozim}</p>
                                                 <h3 className="font-bold text-[23px]">{orinbosar.ismi}</h3>
                                                 <div className="space-y-3">
                                                     <p>
