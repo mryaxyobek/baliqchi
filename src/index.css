@@ -30,19 +30,15 @@
   }
 
   .dropdown:hover img {
-    transform: rotate(180deg);
-  }
-
-  .dropdown:hover .dropdown_item {
-    @apply max-950:mb-2;
+    @apply rotate-180 max-950:rotate-0;
   }
 
   .dropdown_menu {
-    @apply hidden absolute bg-white shadow-md rounded-lg space-y-1 p-2 w-60 z-30 max-950:right-0 max-950:static max-950:block max-950:shadow-none max-950:ml-auto max-950:max-h-0 max-950:overflow-hidden max-950:p-0 transition-all duration-1000 max-950:rounded-none;
+    @apply hidden absolute bg-white shadow-md rounded-lg space-y-1 p-2 w-60 z-30 max-950:right-0 max-950:static max-950:shadow-none max-950:ml-auto max-950:rounded-none max-950:pr-0;
   }
 
   .dropdown:hover .dropdown_menu {
-    @apply block max-950:max-h-max;
+    @apply block;
   }
 
   .dropdown_item {
@@ -67,6 +63,10 @@
 
   .dropdown_menu .menu_item a:hover {
     @apply max-950:bg-transparent;
+  }
+
+  .max-950-hidden {
+    @apply !hidden;
   }
 }
 

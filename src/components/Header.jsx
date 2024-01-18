@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react'
+import { Link, useLocation } from 'react-router-dom';
 
 // images
 import flag from '../assets/images/other/uzbekistan-flag.png';
@@ -8,7 +8,42 @@ import down from '../assets/images/svg/down.svg';
 import hamburger from '../assets/images/svg/hamburger-menu.svg';
 import cross from '../assets/images/svg/cross.svg';
 const Header = () => {
+    const location = useLocation();
     const [openNavbarMenu, setOpenNavbarMenu] = useState(false);
+    useEffect(() => {
+        setOpenNavbarMenu(false);
+    }, [location]);
+
+    const [dropdown_1, setDropdown_1] = useState(false);
+    const dropdown1 = () => {
+        if (window.innerWidth < 950) {
+            setDropdown_1(!dropdown_1);
+        }
+    };
+
+
+    const [dropdown_2, setDropdown_2] = useState(false);
+    const dropdown2 = () => {
+        if (window.innerWidth < 950) {
+            setDropdown_2(!dropdown_2);
+        }
+    };
+
+    const [dropdown_3, setDropdown_3] = useState(false);
+    const dropdown3 = () => {
+        if (window.innerWidth < 950) {
+            setDropdown_3(!dropdown_3);
+        }
+    };
+
+    const [dropdown_4, setDropdown_4] = useState(false);
+    const dropdown4 = () => {
+        if (window.innerWidth < 950) {
+            setDropdown_4(!dropdown_4);
+        }
+    };
+
+
     return (
         <div>
 
@@ -33,14 +68,14 @@ const Header = () => {
                             <img src={cross} alt="cross" className="w-10 h-10" />
                         </button>
                         <nav>
-                            <ul className="wrapper flex items-center gap-4 max-950:flex-col max-950:items-end max-950:gap-0">
+                            <ul className="js-dropdowns-list wrapper flex items-center gap-4 max-950:flex-col max-950:items-end max-950:gap-0">
                                 <li className='w-full'>
-                                    <div className="dropdown">
+                                    <div onClick={dropdown1} className="dropdown">
                                         <div className='dropdown_item'>
                                             <span className='font-medium !font-[montserrat] text-base'>Hokimiyat haqida</span>
-                                            <img width={16} height={16} src={down} alt="down outline icon" />
+                                            <img width={16} height={16} src={down} alt="down outline icon" className={`${dropdown_1 ? '!rotate-180' : ''}`} />
                                         </div>
-                                        <ul className="dropdown_menu">
+                                        <ul className={`${dropdown_1 ? '!block' : 'max-950:max-950-hidden'} dropdown_menu`}>
                                             <li className='menu_item'>
                                                 <Link to='/about'>Hokimiyat tarixi</Link>
                                             </li>
@@ -54,12 +89,12 @@ const Header = () => {
                                     </div>
                                 </li>
                                 <li className='w-full'>
-                                    <div className="dropdown">
+                                    <div onClick={dropdown2} className="dropdown">
                                         <div className='dropdown_item'>
                                             <span className='font-medium !font-[montserrat] text-base'>Faoliyat</span>
-                                            <img width={16} height={16} src={down} alt="down outline icon" />
+                                            <img width={16} height={16} src={down} alt="down outline icon" className={`${dropdown_2 ? '!rotate-180' : ''}`} />
                                         </div>
-                                        <ul className="dropdown_menu">
+                                        <ul className={`${dropdown_2 ? '!block' : 'max-950:max-950-hidden'} dropdown_menu`}>
                                             <li className='menu_item'>
                                                 <Link to='/static/harakatlar-strategiyasi'>Harakatlar strategiyasi</Link>
                                             </li>
@@ -91,12 +126,12 @@ const Header = () => {
                                     </div>
                                 </li>
                                 <li className='w-full'>
-                                    <div className="dropdown">
+                                    <div onClick={dropdown3} className="dropdown">
                                         <div className='dropdown_item'>
                                             <span className='font-medium !font-[montserrat] text-base'>Xizmatlar</span>
-                                            <img width={16} height={16} src={down} alt="down outline icon" />
+                                            <img width={16} height={16} src={down} alt="down outline icon" className={`${dropdown_3 ? '!rotate-180' : ''}`} />
                                         </div>
-                                        <ul className="dropdown_menu">
+                                        <ul className={`${dropdown_3 ? '!block' : 'max-950:max-950-hidden'} dropdown_menu`}>
                                             <li className='menu_item'>
                                                 <Link to='/'>Virtual qabulxona</Link>
                                             </li>
@@ -113,12 +148,12 @@ const Header = () => {
                                     </div>
                                 </li>
                                 <li className='w-full'>
-                                    <div className="dropdown">
+                                    <div onClick={dropdown4} className="dropdown">
                                         <div className='dropdown_item'>
                                             <span className='font-medium !font-[montserrat] text-base'>Matbuot xizmatlari</span>
-                                            <img width={16} height={16} src={down} alt="down outline icon" />
+                                            <img width={16} height={16} src={down} alt="down outline icon" className={`${dropdown_4 ? '!rotate-180' : ''}`} />
                                         </div>
-                                        <ul className="dropdown_menu">
+                                        <ul className={`${dropdown_4 ? '!block' : 'max-950:max-950-hidden'} dropdown_menu`}>
                                             <li className='menu_item'>
                                                 <Link to='/news'>Yangiliklar</Link>
                                             </li>
