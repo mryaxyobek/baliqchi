@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
-import { Dropdown, Space } from 'antd';
 
 // images
 import flag from '../assets/images/other/uzbekistan-flag.png';
@@ -9,24 +8,7 @@ import down from '../assets/images/svg/down.svg';
 import hamburger from '../assets/images/svg/hamburger-menu.svg';
 import cross from '../assets/images/svg/cross.svg';
 const Header = () => {
-
     const [openNavbarMenu, setOpenNavbarMenu] = useState(false);
-
-    const itemss = [
-        {
-            key: 0,
-            label: (
-                <Link to='/news' className="text-base font-medium">Yangiliklar</Link>
-            ),
-        },
-        {
-            key: 1,
-            label: (
-                <Link to='/events' className="text-base font-medium">Tadbirlar</Link>
-            ),
-        }
-    ];
-
     return (
         <div>
 
@@ -60,19 +42,13 @@ const Header = () => {
                                         </div>
                                         <ul className="dropdown_menu">
                                             <li className='menu_item'>
-                                                <Link to='/'>Hokimiyat tarixi</Link>
+                                                <Link to='/about'>Hokimiyat tarixi</Link>
                                             </li>
                                             <li className='menu_item'>
-                                                <Link to='/contact'>Deputatlar</Link>
+                                                <Link to='/about/structure'>Tashkiliy tuzilma</Link>
                                             </li>
                                             <li className='menu_item'>
-                                                <Link to='/contact'>Tashkiliy tuzilma</Link>
-                                            </li>
-                                            <li className='menu_item'>
-                                                <Link to='/contact'>Rahbariyat</Link>
-                                            </li>
-                                            <li className='menu_item'>
-                                                <Link to='/contact'>Markaziy apparant</Link>
+                                                <Link to='/about/managers'>Rahbariyat</Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -85,31 +61,31 @@ const Header = () => {
                                         </div>
                                         <ul className="dropdown_menu">
                                             <li className='menu_item'>
-                                                <Link to='/'>Harakatlar strategiyasi</Link>
+                                                <Link to='/static/harakatlar-strategiyasi'>Harakatlar strategiyasi</Link>
                                             </li>
                                             <li className='menu_item'>
-                                                <Link to='/contact'>Davlat dasturlari</Link>
+                                                <Link to='/static/davlat-dasturlari'>Davlat dasturlari</Link>
                                             </li>
                                             <li className='menu_item'>
-                                                <Link to='/contact'>Normativ - huquqiy hujjatlar</Link>
+                                                <Link to='/static/huquqiy-hujjatlar'>Normativ - huquqiy hujjatlar</Link>
                                             </li>
                                             <li className='menu_item'>
-                                                <Link to='/contact'>Loyihalar</Link>
+                                                <Link to='/static/loyihalar'>Loyihalar</Link>
                                             </li>
                                             <li className='menu_item'>
-                                                <Link to='/contact'>Xalqaro munosabat</Link>
+                                                <Link to='/static/xalqaro-munosabat'>Xalqaro munosabat</Link>
                                             </li>
                                             <li className='menu_item'>
-                                                <Link to='/contact'>Jamoatchilik kengashi</Link>
+                                                <Link to='/static/jamoatchilik-kengashi'>Jamoatchilik kengashi</Link>
                                             </li>
                                             <li className='menu_item'>
-                                                <Link to='/contact'>Tadbirkorlik va biznes</Link>
+                                                <Link to='/static/'>Tadbirkorlik va biznes</Link>
                                             </li>
                                             <li className='menu_item'>
-                                                <Link to='/contact'>Iqtisodiy ko'rsatmalar</Link>
+                                                <Link to='/static/iqtisodiy-korsatkichlar'>Iqtisodiy ko'rsatmalar</Link>
                                             </li>
                                             <li className='menu_item'>
-                                                <Link to='/contact'>Statistik ma'lumotlar</Link>
+                                                <Link to='/static/'>Statistik ma'lumotlar</Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -133,9 +109,6 @@ const Header = () => {
                                             <li className='menu_item'>
                                                 <Link to='/contact'>Tender savdolari</Link>
                                             </li>
-                                            <li className='menu_item'>
-                                                <Link to='/contact'>Litsenziyalash</Link>
-                                            </li>
                                         </ul>
                                     </div>
                                 </li>
@@ -148,9 +121,6 @@ const Header = () => {
                                         <ul className="dropdown_menu">
                                             <li className='menu_item'>
                                                 <Link to='/news'>Yangiliklar</Link>
-                                            </li>
-                                            <li className='menu_item'>
-                                                <Link to='/contact'>Tadbirlar</Link>
                                             </li>
                                             <li className='menu_item'>
                                                 <Link to='/contact'>Bog'lansih</Link>

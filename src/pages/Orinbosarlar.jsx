@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import { orinbosarlar } from '../assets/data';
 
 // images
@@ -9,20 +8,15 @@ import telegram from '../assets/images/svg/telegram.svg';
 import twitter from '../assets/images/svg/twitter.svg';
 import hokim from '../assets/images/other/hokim.png';
 import baliqchi from '../assets/images/svg/Frame.svg';
-
-const Deputatlar = () => {
-    const orinbosarlarData = orinbosarlar;
+const Orinbosarlar = () => {
     return (
         <div className="w-full flex justify-center py-12">
             <div className="container">
-                <div className="flex items-center justify-between gap-4 mb-10 max-450:flex-col max-450:items-start">
-                    <h2 className="font-bold text-[30px]">Rahbariyat</h2>
-                    <Link to='/about/managers' className='rounded-full py-2.5 text-center px-6 border border-gray-500 max-450:w-full'>Barchasini ko'rish</Link>
-                </div>
+                <h1 className="font-bold text-[30px] mb-10">Rahbariyat</h1>
                 <div className="flex justify-between items-start gap-5 max-1130:flex-col">
                     <div className="w-full">
                         <div className="w-full space-y-10">
-                            {orinbosarlarData.map((orinbosar, index) => {
+                            {orinbosarlar.map((orinbosar, index) => {
                                 return (
                                     <div
                                         key={orinbosar.id}
@@ -105,6 +99,6 @@ const Deputatlar = () => {
             </div>
         </div>
     )
-}
+};
 
-export default Deputatlar
+export default Orinbosarlar;

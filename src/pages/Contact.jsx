@@ -11,12 +11,13 @@ const Contact = () => {
                         <hr className='w-11/12 h-[1px] bg-gray-300 rounded-3xl' />
                     </div>
                     <ul className='space-y-1'>
-                        <li className=''><b className='text-[#2E4374]'>Manzil: </b> Andijon Viloyati, Baliqchi tuman hokimligi</li>
-                        <li className=''><b className='text-[#2E4374]'>Ish kunlari: </b>Dushanba - Juma</li>
-                        <li className=''><b className='text-[#2E4374]'>Ish vaqti: </b>Dushanba-Juma 8:00 - 18:00</li>
-                        <li className=''><b className='text-[#2E4374]'>Telefon raqam: </b>+998 74 323 22 11</li>
+                        <li><b className='text-[#2E4374]'>Manzil: </b> Andijon Viloyati, Baliqchi tuman hokimligi</li>
+                        <li><b className='text-[#2E4374]'>Ish kunlari: </b>Dushanba - Juma</li>
+                        <li><b className='text-[#2E4374]'>Ish vaqti: </b>Dushanba-Juma 8:00 - 18:00</li>
+                        <li><b className='text-[#2E4374]'>Telefon raqam: </b>+998 74 323 22 11</li>
                     </ul>
                 </div>
+                
 
                 <form onSubmit={(e) => {
                     e.preventDefault();
