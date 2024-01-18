@@ -114,13 +114,13 @@ const Header = () => {
                                                 <Link to='/static/jamoatchilik-kengashi'>Jamoatchilik kengashi</Link>
                                             </li>
                                             <li className='menu_item'>
-                                                <Link to='/static/'>Tadbirkorlik va biznes</Link>
+                                                <Link to='/static/tadbirkorlik-va-biznes'>Tadbirkorlik va biznes</Link>
                                             </li>
                                             <li className='menu_item'>
                                                 <Link to='/static/iqtisodiy-korsatkichlar'>Iqtisodiy ko'rsatmalar</Link>
                                             </li>
                                             <li className='menu_item'>
-                                                <Link to='/static/'>Statistik ma'lumotlar</Link>
+                                                <Link to='/static/statistik-malumotlar'>Statistik ma'lumotlar</Link>
                                             </li>
                                         </ul>
                                     </div>

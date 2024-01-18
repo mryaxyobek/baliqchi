@@ -20,6 +20,7 @@ import XalqaroMunosabat from './pages/XalqaroMunosabat';
 import HarakatlarStrategiyasi from './pages/HarakatlarStrategiyasi';
 import Loyihalar from './pages/Loyihalar';
 import NotFound from './pages/NotFound';
+import StatistikMalumotlar from './pages/StatistikMalumotlar';
 
 
 const App = () => {
@@ -42,6 +43,7 @@ const App = () => {
           <Route path='jamoatchilik-kengashi' element={<JamoatchilikKengashi />} />
           <Route path='xalqaro-munosabat' element={<XalqaroMunosabat />} />
           <Route path='harakatlar-strategiyasi' element={<HarakatlarStrategiyasi />} />
+          <Route path='statistik-malumotlar' element={<StatistikMalumotlar />} />
           <Route path='loyihalar' element={<Loyihalar />} />
         </Route>
 
