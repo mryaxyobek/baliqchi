@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Hero from '../components/HomePageHero';
 import HomePageAbout from '../components/HomePageAbout';
 import LatestNews from '../components/LatestNews';
@@ -7,6 +7,9 @@ import Deputatlar from '../components/Deputatlar';
 import ContactSection from '../components/ContactSection';
 
 const Home = () => {
+    useEffect(() => {
+        scrollTo(0, 0);
+    });
     return (
         <>
             <Hero />

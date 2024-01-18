@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 // images
 import hokim from '../assets/images/other/hokim.png';
 import iqtisodiy from '../assets/images/other/korsatmalar.png';
 import baliqchi from '../assets/images/svg/Frame.svg';
 const IqtisodiyKorsatmalar = () => {
     const siteLink = window.location.origin;
+    useEffect(() => {
+        scrollTo(0, 0);
+    });
     return (
         <div className="py-12 max-800:py-10 max-550:pt-6">
             <div className='flex gap-5 container max-800:px-0 max-550:flex-col'>

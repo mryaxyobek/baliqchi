@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { orinbosarlar } from '../assets/data';
 
 // images
@@ -9,6 +9,9 @@ import twitter from '../assets/images/svg/twitter.svg';
 import hokim from '../assets/images/other/hokim.png';
 import baliqchi from '../assets/images/svg/Frame.svg';
 const Orinbosarlar = () => {
+    useEffect(() => {
+        scrollTo(0, 0);
+    });
     return (
         <div className="w-full flex justify-center py-12">
             <div className="container">

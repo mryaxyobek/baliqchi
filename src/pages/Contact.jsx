@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const Contact = () => {
+    useEffect(() => {
+        scrollTo(0, 0);
+    });
     return (
         <div className="flex flex-col items-center justify-center">
             <div className='container mb-20 grid grid-cols-2 gap-5 max-[800px]:grid-cols-1'>

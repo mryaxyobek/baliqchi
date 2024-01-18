@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 // images
 import hokim from '../assets/images/other/hokim.png';
 import baliqchi from '../assets/images/svg/Frame.svg';
 const JamoatchilikKengashi = () => {
+    useEffect(() => {
+        scrollTo(0, 0);
+    });
     return (
         <div className='py-12 max-800:py-10'>
             <div className='flex gap-5 container max-550:flex-col'>

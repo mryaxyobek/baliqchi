@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const TashkiliyTuzilma = () => {
+    useEffect(() => {
+        scrollTo(0, 0);
+    });
     return (
         <div className="py-12">
             <div className='container max-800:px-0.5'>

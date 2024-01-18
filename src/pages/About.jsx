@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 // images
 import coatOfArms from '../assets/images/other/coat-of-arms-of-uzbekistan.png';
@@ -6,6 +6,9 @@ import map from '../assets/images/other/baliqchi-map.png';
 import peoples from '../assets/images/other/peoples.jpg';
 import nature from '../assets/images/other/baliqchi-nature.jpg';
 const About = () => {
+    useEffect(() => {
+        scrollTo(0, 0);
+    });
     return (
         <section className='py-14'>
             <div className='flex flex-col w-full max-w-[1280px] mx-auto px-5'>

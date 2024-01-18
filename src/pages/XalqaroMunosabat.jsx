@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 // images
 import hokim from '../assets/images/other/hokim.png';
 import baliqchi from '../assets/images/svg/Frame.svg';
 const XalqaroMunosabat = () => {
+    useEffect(() => {
+        scrollTo(0, 0);
+    });
     return (
         <div className="py-12 max-800:py-10 max-550:pt-6">
             <div className='flex gap-5 container max-550:flex-col'>
@@ -10,7 +13,7 @@ const XalqaroMunosabat = () => {
                     <h1 className='mb-5'>Xalqaro munosabatlar</h1>
                     <p className='mb-6'>2024-yil eksport dasturiga tumandagi
                         <strong> 45 ta ishlab chiqarish mahsulotlarini eksportga yoʻnaltiruvchi </strong>
-                        korxonalar xisobidan 
+                        korxonalar xisobidan
                         <strong> 127,4 mlndan dollardan ortiq </strong>
                         eksportni amalga oshirish rejasi belgilab berilgan.</p>
                     <p className='mb-6'>Joriy yilning noyabr oyiga qadar 80 ta korxona tomonidan 128,6 mln. dollarlik mahsulotlar eksporti amalga oshirilib umumiy reja 101% ga bajarilmoqda. Shu kunga qadar tumandagi 35 ta ishlab chiqaruvchi korxonalar eksportga yoʻnaltirildi.</p>

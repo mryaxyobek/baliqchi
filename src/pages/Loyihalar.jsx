@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const Loyihalar = () => {
+    useEffect(() => {
+        scrollTo(0, 0);
+    });
     return (
         <section className='pt-8 pb-[78px]'>
             <div className='w-full max-w-[870px] mx-auto px-5'>
