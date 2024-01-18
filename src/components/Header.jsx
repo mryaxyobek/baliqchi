@@ -28,13 +28,13 @@ const Header = () => {
                     <div onClick={() => setOpenNavbarMenu(false)} className={`${openNavbarMenu ? 'block' : 'hidden'} fixed z-10 min-w-full h-screen bg-black bg-opacity-75 top-0 right-0`}></div>
 
                     {/* Nav */}
-                    <div className={`${openNavbarMenu ? 'translate-x-0' : 'max-950:translate-x-full'} flex flex-col z-20 max-950:fixed max-950:top-0 max-950:right-0 max-950:bg-white max-950:pl-20 max-950:pr-10 max-950:py-6 max-950:h-screen gap-5 transition-all duration-300`}>
+                    <div className={`${openNavbarMenu ? 'translate-x-0' : 'max-950:translate-x-full'} flex flex-col z-20 max-950:fixed max-950:top-0 max-950:right-0 max-950:bg-white max-950:px-5 max-950:py-8 max-950:h-screen gap-8 max-950:max-w-[290px] max-950:w-full transition-all duration-300 max-950:overflow-y-auto`}>
                         <button onClick={() => setOpenNavbarMenu(false)} className="hidden max-950:block ml-auto">
-                            <img src={cross} alt="cross" className="w-8 h-8" />
+                            <img src={cross} alt="cross" className="w-10 h-10" />
                         </button>
                         <nav>
-                            <ul className="flex items-center gap-4 max-950:flex-col max-950:items-end">
-                                <li>
+                            <ul className="wrapper flex items-center gap-4 max-950:flex-col max-950:items-end max-950:gap-0">
+                                <li className='w-full'>
                                     <div className="dropdown">
                                         <div className='dropdown_item'>
                                             <span className='font-medium !font-[montserrat] text-base'>Hokimiyat haqida</span>
@@ -53,7 +53,7 @@ const Header = () => {
                                         </ul>
                                     </div>
                                 </li>
-                                <li>
+                                <li className='w-full'>
                                     <div className="dropdown">
                                         <div className='dropdown_item'>
                                             <span className='font-medium !font-[montserrat] text-base'>Faoliyat</span>
@@ -90,7 +90,7 @@ const Header = () => {
                                         </ul>
                                     </div>
                                 </li>
-                                <li>
+                                <li className='w-full'>
                                     <div className="dropdown">
                                         <div className='dropdown_item'>
                                             <span className='font-medium !font-[montserrat] text-base'>Xizmatlar</span>
@@ -112,7 +112,7 @@ const Header = () => {
                                         </ul>
                                     </div>
                                 </li>
-                                <li>
+                                <li className='w-full'>
                                     <div className="dropdown">
                                         <div className='dropdown_item'>
                                             <span className='font-medium !font-[montserrat] text-base'>Matbuot xizmatlari</span>
@@ -130,7 +130,7 @@ const Header = () => {
                                 </li>
                             </ul>
                         </nav>
-                        <a href="tel:+9987776655" className="hidden w-full py-3 px-6 text-white rounded-full bg-[#2E4374] text-sm max-950:block">Qo'ng'iroq qilish</a>
+                        <a href="tel:+9987776655" className="hidden w-full py-3 px-6 text-white rounded-full bg-[#2E4374] text-sm max-950:block text-center">Qo'ng'iroq qilish</a>
                     </div>
 
                     <a href="tel:+9987776655" className="py-3 inline-block px-6 text-white rounded-full bg-[#2E4374] text-sm max-1130:hidden">Qo'ng'iroq qilish</a>
