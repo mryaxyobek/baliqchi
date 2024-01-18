@@ -166,8 +166,22 @@ import lex from './links-img/lex.png';
 import adliya from './links-img/adliya.svg';
 import mygov from './links-img/mygov.png';
 import gerb from './links-img/gerb.png'
+import hokim from './links-img/hokim.png'
 
 export const orinbosarlar = [
+    {
+        id: 0,
+        qabulKuni: 'Shanba',
+        boshlashVaqti: '9:00',
+        tugatishVaqti: '11:00',
+        telephone: '+998998887766',
+        img: hokim,
+        ismi: "Jasur Abduraimov",
+        lavozim: 'Hokim',
+        yili: 1972,
+        malumoti: 'oliy',
+        universitet: "Andijon muhandislik iqtisodiyot instituti"
+    },
     {
         id: 1,
         qabulKuni: 'Dushanba',
@@ -175,11 +189,8 @@ export const orinbosarlar = [
         tugatishVaqti: '18:00',
         telephone: '+9989999002817',
         img: kambagallik,
-        millati: "o'zbek",
         ismi: "Yulchiyev Boburmirzo Umarovich",
-        lavozim: `Baliqchi tuman hokimining moliya-iqtisodiyot va kambag'allikni
-    qisqartirish masalalari bo'yicha birinchi o'rinbosari va
-    kambag'allikni qisqartirish bo'limi boshlig'i`,
+        lavozim: `O'rinbosar`,
         yili: 1972,
         malumoti: 'oliy',
         universitet: "Andijon muhandislik iqtisodiyot instituti"
@@ -191,10 +202,9 @@ export const orinbosarlar = [
         telephone: '+9989941144942',
         tugatishVaqti: '18:00',
         img: qurilish,
-        millati: "o'zbek",
         yili: 1973,
         ismi: "Mamatov Muzaffar Nabievich",
-        lavozim: `Baliqchi tuman hokimining qurilish, kommunikatsiyalar, kommunal xo'jalik, ekologiya va ko'klamzorlashtirish masalalari bo'yicha o'rinbosari`,
+        lavozim: `O'rinbosar`,
         malumoti: 'oliy',
         universitet: "Farg'ona politexnika instituti"
     },
@@ -205,10 +215,9 @@ export const orinbosarlar = [
         telephone: '+9989990173399',
         tugatishVaqti: '18:00',
         img: investitsiya,
-        millati: "o'zbek",
+        lavozim: `O'rinbosar`,
         yili: 1991,
         ismi: "Abdulxomidov Saydullo Abdillojon o'gli",
-        lavozim: `Baliqchi tuman hokimining o'rinbosari - tuman investitsiyalar va tashqi savdo bo'limi boshlig'i`,
         malumoti: 'oliy',
         universitet: "Andijon qishloq xo'jaligi instuti"
     },
@@ -219,10 +228,9 @@ export const orinbosarlar = [
         telephone: '+9989932588570',
         tugatishVaqti: '18:00',
         img: suv,
-        millati: "o'zbek",
+        lavozim: `Baliqchi tuman hokimining o'rinbosari - tuman investitsiyalar va tashqi savdo bo'limi boshlig'i`,
         yili: 1969,
         ismi: "Jo'rayev Latifjon Muhammadjonovich",
-        lavozim: `Baliqchi tuman hokimining qishloq va suv xo'jaligi masalalari bo'yicha o'rinbosari`,
         malumoti: 'oliy',
         universitet: "Volgograd qishloq xo'jaligi instuti"
     },
@@ -233,10 +241,9 @@ export const orinbosarlar = [
         telephone: '+9989993081308',
         tugatishVaqti: '18:00',
         img: yoshlar,
-        millati: "o'zbek",
         yili: 1988,
+        lavozim: `Baliqchi tuman hokimining qishloq va suv xo'jaligi masalalari bo'yicha o'rinbosari`,
         ismi: "Rahmonov Ahrorbek Rahmatillayevich",
-        lavozim: `Baliqchi tuman hokimining yoshlar siyosati, ijtimoiy rivojlantirish va manaviy-marifiy ishlar bo'yicha o'rinbosari`,
         malumoti: 'oliy',
         universitet: "Andijon davlat universiteti"
     },
@@ -247,10 +254,9 @@ export const orinbosarlar = [
         telephone: '+9989996503060',
         tugatishVaqti: '18:00',
         img: xotin,
-        millati: "o'zbek",
         yili: 1976,
+        lavozim: `Baliqchi tuman hokimining yoshlar siyosati, ijtimoiy rivojlantirish va manaviy-marifiy ishlar bo'yicha o'rinbosari`,
         ismi: "Hojimatova Mohichexra Abdullaevna",
-        lavozim: `Baliqchi tuman hokimining o'rinbosari - oila va xotin-qizlar boshlig'i`,
         malumoti: 'oliy',
         universitet: "Andijon qishloq xo'jaligi instituti"
     },
