@@ -77,7 +77,7 @@ const Header = () => {
                                         </div>
                                         <ul className={`${dropdown_1 ? '!block' : 'max-950:max-950-hidden'} dropdown_menu`}>
                                             <li className='menu_item'>
-                                                <Link to='/about'>Hokimiyat tarixi</Link>
+                                                <Link to='/about'>Haqida</Link>
                                             </li>
                                             <li className='menu_item'>
                                                 <Link to='/about/structure'>Tashkiliy tuzilma</Link>

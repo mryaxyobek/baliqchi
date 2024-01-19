@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 // images
 import hokim from '../assets/images/other/hokim.png';
 import baliqchi from '../assets/images/svg/Frame.svg';
+import exportt from '../assets/images/other/eksport.jpg';
+import importt from '../assets/images/other/import.jpg';
 const XalqaroMunosabat = () => {
     useEffect(() => {
         scrollTo(0, 0);
@@ -12,13 +14,23 @@ const XalqaroMunosabat = () => {
             <div className='flex gap-5 container max-550:flex-col'>
                 <div>
                     <h1 className='mb-5'>Xalqaro munosabatlar</h1>
-                    <p className='mb-6'>2024-yil eksport dasturiga tumandagi
-                        <strong> 45 ta ishlab chiqarish mahsulotlarini eksportga yoʻnaltiruvchi </strong>
-                        korxonalar xisobidan
-                        <strong> 127,4 mlndan dollardan ortiq </strong>
-                        eksportni amalga oshirish rejasi belgilab berilgan.</p>
-                    <p className='mb-6'>Joriy yilning noyabr oyiga qadar 80 ta korxona tomonidan 128,6 mln. dollarlik mahsulotlar eksporti amalga oshirilib umumiy reja 101% ga bajarilmoqda. Shu kunga qadar tumandagi 35 ta ishlab chiqaruvchi korxonalar eksportga yoʻnaltirildi.</p>
-                    <p>Tuman eksportining mamlakat guruhlariga taqsimlanishi tahlil qilinganda, MDH mamlakatlari tuman umumiy eksportidagi ulushi 70,4 foiz tashkil etadi. Tuman eksportining 7 foizi Afgʻoniston, 7 foizi Tojikiston, 9,4 foizi Birlashgan Arab Amirliklari 19,5 foizi Rossiya, 10,5 foizi Qozoqiston, 22,4 foizi Turkiya ulushlariga toʻgʻri kelmoqda. Koʻrsatilgan maʼlumotlardan kelib chiqqan holda, MDH mamlakatlari eksportining ulushi ortgani tushuniladi. 2020-yilda tumanda eksportda amalga oshirilgan bozorni diversifikatsiya qilish siyosati tufayli dunyoning 30 davlatlariga eksportni amalga oshirgan.</p>
+                    <strong className='block mb-6'>Baliqchi tumani 2020-yildan boshlab hozirga qadar bo'lgan xalqaro munosabatlar, import va eksport hajmi haqida qisqacha ma'lumotlar</strong>
+                    <div className="mb-10 space-y-8">
+                        <strong className='uppercase'>Import</strong>
+                        <p>2022- yilda import hajmi 10 051,6 ming AQSH dollarini, 2021- yilga nisbatan
+                            158,0 foizni tashkil etdi.</p>
+                        <p>Import tarkibidagi tovar va xizmatlar ulushi, % da
+                            Import tarkibida tovarlar ulushi 100,0 % ni tashkil etib, mashina va transport asbob uskunalari (79,5 %), nooziq-ovqat xomashyo, yoqilg‘idan tashqari (6,4 %), asosan material turiga qarab klassifikatsiyalangan sanoat tovarlari (4,8 %), oziq-ovqat mahsulotlari va tirik hayvonlar (3,4 %), turli xil tayyor buyumlar (3,5 %), kimyoviy vositalar va boshqa toifalarga kiritilmagan shunga o‘xshash mahsulotlar (2,4 %)ga to‘g‘ri keldi.</p>
+                        <img src={importt} alt="" className='w-full h-auto bg-gray-300' />
+                    </div>
+
+                    <div className="mb-10 space-y-8">
+                        <strong className='uppercase'>Eksport</strong>
+                        <p>2022- yilda eksport hajmi 41 576,5 ming AQSH dollari (qimmat baho metallar eksportidan tashqari) qiymatidagi (2021- yilga nisbatan 44,9 foizni tashkil etdi) tovar va xizmatlar eksport qilinishi ta’minlandi.</p>
+                        <p>Eksport tarkibidagi tovar va xizmatlar ulushi, % da</p>
+                        <p>Eksport tarkibida tovarlar ulushi 100,0 % ni tashkil etib, ular asosan material turiga qarab klassifikatsiyalangan sanoat tovarlari (87,0 %), turli xil tayyor buyumlar (7,7 %), nooziq-ovqat xomashyo, yoqilg‘idan tashqari (3,6 %), oziq-ovqat mahsulotlari va tirik hayvonlar (1,7 %) hissasiga to‘g‘ri kelmoqda.</p>
+                        <img src={exportt} alt="" className='w-full h-auto bg-gray-300' />
+                    </div>
                 </div>
 
                 <div className="min-w-[310px] space-y-6 max-800:hidden max-550:block max-550:min-w-0">
