@@ -27,7 +27,7 @@ const Yangiliklar = () => {
                         <div className='mb-10 space-y-6'>
                             <div className="flex flex-col gap-y-4 mb-10">
                                 <div className="space-y-6 max-[500px]:px-5">
-                                    <h1 className="">{yangilik.title}</h1>
+                                    <h1>{yangilik.title}</h1>
                                     <p className="text-gray-600">{yangilik.date.toDateString()}</p>
                                     <img
                                         className="w-full h-96 object-cover object-top rounded bg-gray-400 max-700:h-72 max-550:h-64"
@@ -44,6 +44,10 @@ const Yangiliklar = () => {
 
                             <h2 className="max-[500px]:px-5">Boshqa yangiliklar</h2>
                         </div>
+                    }
+                    {
+                        yangilikNomi === 'all-news' &&
+                        <h1 className="mb-10 max-[500px]:px-5">Barcha yangiliklar</h1>
                     }
 
                     <ul className="grid gap-10">

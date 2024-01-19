@@ -12,7 +12,7 @@ const LatestNews = () => {
                         return (
                             index < 3 &&
                             <li key={item.id}>
-                                <Link key={item.id} className="flex flex-col gap-y-4">
+                                <Link key={item.id} to={`/news/${item.title.toString().toLowerCase().replace(/\s+/g, '-')}`} className="flex flex-col gap-y-4">
                                     <img
                                         className="w-full h-64 object-cover object-top rounded-lg bg-gray-400 max-700:h-52 max-550:h-64 max-[500px]:rounded-none"
                                         src={item.image}

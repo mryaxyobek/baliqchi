@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 const NotFound = () => {
+    useEffect(() => {
+        scrollTo(0, 0);
+    })
     return (
         <div className='py-12 max-800:py-10 max-550:pt-6'>
             <div className="flex flex-col items-center justify-center container space-y-4 text-center">

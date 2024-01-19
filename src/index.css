@@ -1,6 +1,10 @@
 /* font  */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 *:focus {
   @apply outline-offset-2;
   outline-color: #424769;

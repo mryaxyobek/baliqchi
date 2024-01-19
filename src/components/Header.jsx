@@ -155,7 +155,7 @@ const Header = () => {
                                         </div>
                                         <ul className={`${dropdown_4 ? '!block' : 'max-950:max-950-hidden'} dropdown_menu`}>
                                             <li className='menu_item'>
-                                                <Link to='/news'>Yangiliklar</Link>
+                                                <Link to='/news/all-news'>Yangiliklar</Link>
                                             </li>
                                             <li className='menu_item'>
                                                 <Link to='/contact'>Bog'lansih</Link>
