@@ -5,6 +5,7 @@ import baliqchi from '../assets/images/svg/Frame.svg';
 import exportt from '../assets/images/other/eksport.jpg';
 import importt from '../assets/images/other/import.jpg';
 const XalqaroMunosabat = () => {
+    const siteLink = window.location.origin;
     useEffect(() => {
         scrollTo(0, 0);
         document.title = 'Baliqchi tuman hokimligi | Xalqaro munosabatlar';
@@ -22,6 +23,7 @@ const XalqaroMunosabat = () => {
                         <p>Import tarkibidagi tovar va xizmatlar ulushi, % da
                             Import tarkibida tovarlar ulushi 100,0 % ni tashkil etib, mashina va transport asbob uskunalari (79,5 %), nooziq-ovqat xomashyo, yoqilg‘idan tashqari (6,4 %), asosan material turiga qarab klassifikatsiyalangan sanoat tovarlari (4,8 %), oziq-ovqat mahsulotlari va tirik hayvonlar (3,4 %), turli xil tayyor buyumlar (3,5 %), kimyoviy vositalar va boshqa toifalarga kiritilmagan shunga o‘xshash mahsulotlar (2,4 %)ga to‘g‘ri keldi.</p>
                         <img src={importt} alt="" className='w-full h-auto bg-gray-300' />
+                        <a href={`${siteLink}${importt}`} download className='inline-block rounded-full py-2.5 px-6 border border-gray-400'>Rasmni yuklab olish</a>
                     </div>
 
                     <div className="mb-10 space-y-8">
@@ -30,6 +32,7 @@ const XalqaroMunosabat = () => {
                         <p>Eksport tarkibidagi tovar va xizmatlar ulushi, % da</p>
                         <p>Eksport tarkibida tovarlar ulushi 100,0 % ni tashkil etib, ular asosan material turiga qarab klassifikatsiyalangan sanoat tovarlari (87,0 %), turli xil tayyor buyumlar (7,7 %), nooziq-ovqat xomashyo, yoqilg‘idan tashqari (3,6 %), oziq-ovqat mahsulotlari va tirik hayvonlar (1,7 %) hissasiga to‘g‘ri kelmoqda.</p>
                         <img src={exportt} alt="" className='w-full h-auto bg-gray-300' />
+                        <a href={`${siteLink}/${exportt}`} download className='inline-block rounded-full py-2.5 px-6 border border-gray-400'>Rasmni yuklab olish</a>
                     </div>
                 </div>
 
