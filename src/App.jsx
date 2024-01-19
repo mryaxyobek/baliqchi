@@ -24,6 +24,7 @@ import StatistikMalumotlar from './pages/StatistikMalumotlar';
 import DavlatDasturlari from './pages/DavlatDasturlari';
 import HuquqiyHujjatlar from './pages/HuquqiyHujjatlar';
 import OchiqMalumotlar from './pages/OchiqMalumotlar';
+import Yangiliklar from './pages/Yangiliklar';
 
 
 const App = () => {
@@ -55,6 +56,9 @@ const App = () => {
         <Route path='/service' element={<Service />} >
           <Route path='ochiq-malumotlar' element={<OchiqMalumotlar />} />
         </Route>
+
+          <Route path='news' element={<Yangiliklar />} />
+
         <Route path='*' element={<NotFound />} />
       </Route>
     )

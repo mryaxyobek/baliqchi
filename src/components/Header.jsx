@@ -133,7 +133,7 @@ const Header = () => {
                                         </div>
                                         <ul className={`${dropdown_3 ? '!block' : 'max-950:max-950-hidden'} dropdown_menu`}>
                                             <li className='menu_item'>
-                                                <a href='https://' target='_blank'>Virtual qabulxona</a>
+                                                <a href='https://t.me/baliqchi_hokimga_murojat_bot' target='_blank'>Virtual qabulxona</a>
                                             </li>
                                             <li className='menu_item'>
                                                 <Link to='/service/ochiq-malumotlar'>Ochiq ma'lumotlar</Link>
