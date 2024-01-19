@@ -52,11 +52,11 @@ const Header = () => {
 
                     {/* Logo */}
                     <Link to='/' className='flex gap-2 items-center'>
-                        <img src={coatOfArms} alt="flag" className="w-16 h-16 max-550:w-12 max-550:h-12 max-[350px]:hidden" />
-                        <img src={flag} alt="flag" className="w-[3px] h-14 rounded-[1px] max-550:h-8 max-[350px]:hidden" />
+                        <img src={coatOfArms} alt="flag" className="w-16 h-16 max-550:w-12 max-550:h-12" />
+                        <img src={flag} alt="flag" className="w-[3px] h-16 rounded-[1px] max-550:h-8 max-950:h-12" />
                         <div>
-                            <h1 className="font-bold text-xl max-550:text-lg max-450:text-base">Baliqchi hokimiyati</h1>
-                            <p className="text-base font-normal max-450:text-sm max-450:font-medium">Rasmiy web sayti</p>
+                            <strong className="block font-bold text-xl max-550:text-lg max-450:text-base !leading-[22px] max-w-[200px]">Baliqchi tuman hokimligi</strong>
+                            <p className="text-base font-normal max-450:text-sm max-450:font-medium max-950:hidden">Rasmiy web sayti</p>
                         </div>
                     </Link>
                     {/* overlay */}
