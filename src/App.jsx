@@ -22,6 +22,7 @@ import Loyihalar from './pages/Loyihalar';
 import NotFound from './pages/NotFound';
 import StatistikMalumotlar from './pages/StatistikMalumotlar';
 import DavlatDasturlari from './pages/DavlatDasturlari';
+import HuquqiyHujjatlar from './pages/HuquqiyHujjatlar';
 
 
 const App = () => {
@@ -46,6 +47,7 @@ const App = () => {
           <Route path='harakatlar-strategiyasi' element={<HarakatlarStrategiyasi />} />
           <Route path='statistik-malumotlar' element={<StatistikMalumotlar />} />
           <Route path='davlat-dasturlari' element={<DavlatDasturlari />} />
+          <Route path='huquqiy-hujjatlar' element={<HuquqiyHujjatlar />} />
           <Route path='loyihalar' element={<Loyihalar />} />
         </Route>
 
