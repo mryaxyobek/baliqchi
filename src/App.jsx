@@ -23,6 +23,7 @@ import NotFound from './pages/NotFound';
 import StatistikMalumotlar from './pages/StatistikMalumotlar';
 import DavlatDasturlari from './pages/DavlatDasturlari';
 import HuquqiyHujjatlar from './pages/HuquqiyHujjatlar';
+import OchiqMalumotlar from './pages/OchiqMalumotlar';
 
 
 const App = () => {
@@ -52,6 +53,7 @@ const App = () => {
         </Route>
 
         <Route path='/service' element={<Service />} >
+          <Route path='ochiq-malumotlar' element={<OchiqMalumotlar />} />
         </Route>
         <Route path='*' element={<NotFound />} />
       </Route>

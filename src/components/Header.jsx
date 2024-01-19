@@ -55,15 +55,15 @@ const Header = () => {
                         <img src={coatOfArms} alt="flag" className="w-16 h-16 max-550:w-12 max-550:h-12 max-[350px]:hidden" />
                         <img src={flag} alt="flag" className="w-[3px] h-14 rounded-[1px] max-550:h-8 max-[350px]:hidden" />
                         <div>
-                            <h1 className="font-bold text-xl max-550:text-lg">Baliqchi hokimiyati</h1>
-                            <p className="text-base font-normal">Rasmiy web sayti</p>
+                            <h1 className="font-bold text-xl max-550:text-lg max-450:text-base">Baliqchi hokimiyati</h1>
+                            <p className="text-base font-normal max-450:text-sm max-450:font-medium">Rasmiy web sayti</p>
                         </div>
                     </Link>
                     {/* overlay */}
                     <div onClick={() => setOpenNavbarMenu(false)} className={`${openNavbarMenu ? 'block' : 'hidden'} fixed z-10 min-w-full h-screen bg-black bg-opacity-75 top-0 right-0`}></div>
 
                     {/* Nav */}
-                    <div className={`${openNavbarMenu ? 'translate-x-0' : 'max-950:translate-x-full'} flex flex-col z-20 max-950:fixed max-950:top-0 max-950:right-0 max-950:bg-white max-950:px-5 max-950:py-8 max-950:h-screen gap-8 max-950:max-w-[290px] max-950:w-full transition-all duration-300 max-950:overflow-y-auto`}>
+                    <div className={`${openNavbarMenu ? 'translate-x-0' : 'max-950:translate-x-full'} flex flex-col z-20 max-950:fixed max-950:top-0 max-950:right-0 max-950:bg-white max-950:px-5 max-950:py-8 max-950:h-screen gap-8 max-950:max-w-[290px] max-950:w-full transition-all duration-300 max-950:overflow-y-auto max-550:pt-6`}>
                         <button onClick={() => setOpenNavbarMenu(false)} className="hidden max-950:block ml-auto">
                             <img src={cross} alt="cross" className="w-10 h-10" />
                         </button>
@@ -133,16 +133,16 @@ const Header = () => {
                                         </div>
                                         <ul className={`${dropdown_3 ? '!block' : 'max-950:max-950-hidden'} dropdown_menu`}>
                                             <li className='menu_item'>
-                                                <Link to='/'>Virtual qabulxona</Link>
+                                                <a href='https://' target='_blank'>Virtual qabulxona</a>
                                             </li>
                                             <li className='menu_item'>
-                                                <Link to='/contact'>Ochiq ma'lumotlar</Link>
+                                                <Link to='/service/ochiq-malumotlar'>Ochiq ma'lumotlar</Link>
                                             </li>
                                             <li className='menu_item'>
-                                                <Link to='/contact'>Bo'sh ish o'rinlari</Link>
+                                                <Link to='/service/'>Bo'sh ish o'rinlari</Link>
                                             </li>
                                             <li className='menu_item'>
-                                                <Link to='/contact'>Tender savdolari</Link>
+                                                <Link to='/service/'>Tender savdolari</Link>
                                             </li>
                                         </ul>
                                     </div>
