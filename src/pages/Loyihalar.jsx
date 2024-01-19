@@ -69,12 +69,6 @@ const Loyihalar = () => {
                         <strong className='font-medium text-[20px] '>605 ta</strong>
                     </p>
                     <p className='text-lg leading-6 mb-16'> yangi ish o'rinlari yaratiladi. Shu jumladan 2023-yilda 98 mln doll investitsiyalar (shundan 65 mln doll to'g'ridan-to'g'ri xorijiy investitsiya) o'zlashtirilishi va 102 ta yangi ish o'rinlarini yaratish rejalashtirilgan.</p>
-                    <p className='text-lg leading-6 mb-16'>
-                        Ushbu loyihalardan biri O'zbekiston Respublikasi Prezidentining 2018-yil 4-oktyabrdagi “O'zbekiston Respublikasi bilan Hindiston Respublikasi o'rtasidagi strategik sheriklikni yana-da kengaytirish va mustahkamlash chora tadbirlari to'g'risida”gi PQ-3958-sonli qarori asosida “Minerva world of knowledges” MCHJ tomonidan umumiy qiymati 500 mln. dollar bo'lgan “Zamonaviy universitet, turar-joy, shifoxona hamda ko'ngilochar bog'” tashkil etish loyihasini ishga tushishi natijasida 500 ta yangi ish o'rinlari yaratiladi. Loyihaning ishga tushish muddati 2025-yilga mo'ljallangan. Hozirda ushbu loyihaning qurilish ishlari amalga oshirilmoqda.
-                    </p>
-                    <p className='text-lg leading-6'>
-                        Sanoat yo'nalishida “V.L.Galperin nomidagi Toshkent truba zavodi” QK MCHJ tomonidan umumiy qiymati 84,4 mln. doll. bo'lgan “Metall listlar ishlab chiqarish”ni tashkil etish loyihasining ishga tushishi natijasida yangi 100 ta ish o'rinlari yaratilishi rejalashtirilgan.
-                    </p>
                 </div>
 
                 <div className="min-w-[310px] space-y-6 max-800:hidden max-550:block max-550:min-w-0">
