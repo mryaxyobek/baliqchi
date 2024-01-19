@@ -437,7 +437,7 @@ const DavlatDasturlari = () => {
                     <img src={baliqchi} alt="" className="w-full max-w-[310px] max-550:max-w-full" />
                     <div className="p-5 w-full shadow-md rounded-2xl text-center space-y-3 max-1130:hidde max-550:block">
 
-                        <h3 className="font-bold text-2xl">Hokimga murojat yo'llash</h3>
+                        <h3 className="font-bold text-2xl">Hokimga murojaat yo'llash</h3>
                         <img
                             src={hokim}
                             alt="Baliqchi tumani"

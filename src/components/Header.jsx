@@ -114,9 +114,6 @@ const Header = () => {
                                                 <Link to='/static/jamoatchilik-kengashi'>Jamoatchilik kengashi</Link>
                                             </li>
                                             <li className='menu_item'>
-                                                <Link to='/static/tadbirkorlik-va-biznes'>Tadbirkorlik va biznes</Link>
-                                            </li>
-                                            <li className='menu_item'>
                                                 <Link to='/static/iqtisodiy-korsatkichlar'>Iqtisodiy ko'rsatmalar</Link>
                                             </li>
                                             <li className='menu_item'>
@@ -137,12 +134,6 @@ const Header = () => {
                                             </li>
                                             <li className='menu_item'>
                                                 <Link to='/service/ochiq-malumotlar'>Ochiq ma'lumotlar</Link>
-                                            </li>
-                                            <li className='menu_item'>
-                                                <Link to='/service/'>Bo'sh ish o'rinlari</Link>
-                                            </li>
-                                            <li className='menu_item'>
-                                                <Link to='/service/'>Tender savdolari</Link>
                                             </li>
                                         </ul>
                                     </div>

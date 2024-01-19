@@ -84,7 +84,7 @@ const Deputatlar = () => {
                     <div className="min-w-[310px] max-w-[310px] space-y-5 w-full max-1130:max-w-full">
                         <img src={baliqchi} alt="" className="w-full max-w-[310px] max-1130:hidden" />
                         <div className="p-5 w-full shadow-lg border rounded-2xl text-center space-y-3 max-1130:hidden max-550:block">
-                            <h3 className="font-bold text-2xl">Hokimga murojat yo'llash</h3>
+                            <h3 className="font-bold text-2xl">Hokimga murojaat yo'llash</h3>
                             <img
                                 src={hokim}
                                 alt="Baliqchi tumani"

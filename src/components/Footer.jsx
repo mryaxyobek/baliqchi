@@ -31,56 +31,52 @@ const Footer = () => {
                                         <Link to='/about'>Hokimiyat tarixi</Link>
                                     </li>
                                     <li>
-                                        <Link to='/managers'>Deputatlar</Link>
+                                        <Link to='/about/structure'>Tashkiliy tuzilma</Link>
                                     </li>
                                     <li>
-                                        <Link to='/managers'>Rahbariyat</Link>
+                                        <Link to='/about/managers'>Rahbariyat</Link>
                                     </li>
                                 </ul>
                             </li>
+
                             <li>
                                 <h3 className='font-semibold text-lg leading-normal mb-4 text-white'>Faoliyat</h3>
                                 <ul className='flex flex-col gap-2'>
                                     <li>
-                                        <Link to='/'>Davlat dasturlari</Link>
+                                        <Link to='/static/harakatlar-strategiyasi'>Harakatlar strategiyasi</Link>
                                     </li>
                                     <li>
-                                        <Link to='/'>Normativ - huquqiy xujjatlar</Link>
+                                        <Link to='/static/davlat-dasturlari'>Davlat dasturlari</Link>
                                     </li>
                                     <li>
-                                        <Link to='/events'>Loyihalar</Link>
+                                        <Link to='/static/huquqiy-hujjatlar'>Normativ - Huquqiy hujjatlar</Link>
                                     </li>
                                     <li>
-                                        <Link to='/'>Xalqaro munosabat</Link>
+                                        <Link to='/static/loyihalar'>Loyihalar</Link>
                                     </li>
                                     <li>
-                                        <Link to='/'>Jamoatchilik Kengashi</Link>
+                                        <Link to='/static/xalqaro-munosabat'>Xalqaro munosabat</Link>
                                     </li>
                                     <li>
-                                        <Link to='/'>Tadbirkorlik va biznes</Link>
+                                        <Link to='/static/jamoatchilik-kengashi'>Jamoatchilik Kengashi</Link>
                                     </li>
                                     <li>
-                                        <Link to='/'>Iqtisodiy ko'rsatkichlar</Link>
+                                        <Link to='/static/iqtisodiy-korsatkichlar'>Iqtisodiy ko'rsatkichlar</Link>
+                                    </li>
+                                    <li>
+                                        <Link to='/static/statistik-malumotlar'>Statistik ma'lumotlar</Link>
                                     </li>
                                 </ul>
                             </li>
+
                             <li>
                                 <h3 className='font-semibold text-lg leading-normal mb-4 text-white'>Xizmatlar</h3>
                                 <ul className='flex flex-col gap-2'>
                                     <li>
-                                        <Link to='/'>Virtual qabulxona</Link>
+                                        <a target='_blank' href='https://t.me/baliqchi_hokimga_murojat_bot'>Virtual qabulxona</a>
                                     </li>
                                     <li>
-                                        <Link to='/'>Ochiq ma'lumotlar</Link>
-                                    </li>
-                                    <li>
-                                        <Link to='/'>Bo'sh ish o'rinlari</Link>
-                                    </li>
-                                    <li>
-                                        <Link to='/'>Tender savdolari</Link>
-                                    </li>
-                                    <li>
-                                        <Link to='/'>Litsenziyalash</Link>
+                                        <Link to='/service/ochiq-malumotlar'>Ochiq ma'lumotlar</Link>
                                     </li>
                                 </ul>
                             </li>
