@@ -3,26 +3,53 @@ import { news } from "../assets/data";
 // images
 import hokim from '../assets/images/other/hokim.png';
 import baliqchi from '../assets/images/svg/Frame.svg';
+import { useParams } from 'react-router-dom';
 const Yangiliklar = () => {
+    const { yangilikNomi } = useParams();
     useEffect(() => {
         scrollTo(0, 0);
     }, []);
     const [clickedImg, setClickedImg] = useState('');
     const [openModal, setOpenModal] = useState(false);
-
+    const yangilik = news.find((item) => yangilikNomi === item.title.toString().toLowerCase().replace(/\s+/g, '-'));
+    const boshqaYangiliklar = news.filter((item) => item.id !== (yangilik ? yangilik.id : ''));
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            setOpenModal(false);
+        };
+    });
     return (
         <div className='py-12 max-800:py-10 max-550:pt-6'>
             <div className='flex gap-5 container max-550:flex-col max-[500px]:px-0'>
                 <div className='w-full'>
-                    <h2 className="text-4xl font-semibold mb-10 max-[500px]:px-5">Yangiliklar</h2>
-                    <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                        {news.map((item) => {
+                    {
+                        yangilik &&
+                        <div className='mb-10 space-y-6'>
+                            <div className="flex flex-col gap-y-4 mb-10">
+                                <div className="space-y-6 max-[500px]:px-5">
+                                    <h1 className="">{yangilik.title}</h1>
+                                    <p className="text-gray-600">{yangilik.date.toDateString()}</p>
+                                    <img
+                                        className="w-full h-96 object-cover object-top rounded bg-gray-400 max-700:h-72 max-550:h-64"
+                                        src={yangilik.image}
+                                        alt=""
+                                        onClick={() => {
+                                            setClickedImg(yangilik.image);
+                                            setOpenModal(true);
+                                        }}
+                                    />
+                                    <p>{yangilik.description}</p>
+                                </div>
+                            </div>
+
+                            <h2 className="max-[500px]:px-5">Boshqa yangiliklar</h2>
+                        </div>
+                    }
+
+                    <ul className="grid gap-10">
+                        {boshqaYangiliklar.map((item) => {
                             return (
-                                <li
-                                    id={item.id}
-                                    key={item.id}
-                                    className="flex flex-col gap-y-4"
-                                >
+                                <li key={item.id} className="flex flex-col gap-y-4">
                                     <img
                                         className="w-full h-96 object-cover object-top rounded bg-gray-400 max-700:h-72 max-550:h-64"
                                         src={item.image}

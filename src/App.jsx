@@ -57,7 +57,7 @@ const App = () => {
           <Route path='ochiq-malumotlar' element={<OchiqMalumotlar />} />
         </Route>
 
-          <Route path='news' element={<Yangiliklar />} />
+          <Route path='news/:yangilikNomi' element={<Yangiliklar />} />
 
         <Route path='*' element={<NotFound />} />
       </Route>
