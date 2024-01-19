@@ -7,6 +7,7 @@ const IqtisodiyKorsatmalar = () => {
     const siteLink = window.location.origin;
     useEffect(() => {
         scrollTo(0, 0);
+        document.title = 'Baliqchi tuman hokimligi | Iqtisodiy ko\'rsatmalar';
     });
     return (
         <div className="py-12 max-800:py-10 max-550:pt-6">

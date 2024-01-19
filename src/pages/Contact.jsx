@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 const Contact = () => {
     useEffect(() => {
         scrollTo(0, 0);
+        document.title = 'Baliqchi tuman hokimligi | Aloqa';
     });
     return (
         <div className="flex flex-col items-center justify-center">

@@ -8,6 +8,7 @@ const Yangiliklar = () => {
     const { yangilikNomi } = useParams();
     useEffect(() => {
         scrollTo(0, 0);
+        document.title = 'Baliqchi tuman hokimligi | Yangiliklar';
     }, []);
     const [clickedImg, setClickedImg] = useState('');
     const [openModal, setOpenModal] = useState(false);

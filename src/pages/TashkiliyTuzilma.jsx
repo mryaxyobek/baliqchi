@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 const TashkiliyTuzilma = () => {
     useEffect(() => {
         scrollTo(0, 0);
+        document.title = 'Baliqchi tuman hokimligi | Tashkiliy tuzilma';
     });
     return (
         <div className="py-12">

@@ -5,6 +5,7 @@ import baliqchi from '../assets/images/svg/Frame.svg';
 const StatistikMalumotlar = () => {
     useEffect(() => {
         scrollTo(0, 0);
+        document.title = 'Baliqchi tuman hokimligi | Statistik ma\'lumotlar';
     });
     return (
         <div>

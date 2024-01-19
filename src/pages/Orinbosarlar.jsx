@@ -11,6 +11,7 @@ import baliqchi from '../assets/images/svg/Frame.svg';
 const Orinbosarlar = () => {
     useEffect(() => {
         scrollTo(0, 0);
+        document.title = 'Baliqchi tuman hokimligi | Rahbariyat';
     });
     return (
         <div className="w-full flex justify-center py-12">

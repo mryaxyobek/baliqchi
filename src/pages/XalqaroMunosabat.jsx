@@ -5,6 +5,7 @@ import baliqchi from '../assets/images/svg/Frame.svg';
 const XalqaroMunosabat = () => {
     useEffect(() => {
         scrollTo(0, 0);
+        document.title = 'Baliqchi tuman hokimligi | Xalqaro munosabatlar';
     });
     return (
         <div className="py-12 max-800:py-10 max-550:pt-6">

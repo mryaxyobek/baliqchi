@@ -8,6 +8,7 @@ import nature from '../assets/images/other/baliqchi-nature.jpg';
 const About = () => {
     useEffect(() => {
         scrollTo(0, 0);
+        document.title = 'Baliqchi tuman hokimligi | Haqida';
     });
     return (
         <section className='py-14'>

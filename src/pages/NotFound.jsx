@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 const NotFound = () => {
     useEffect(() => {
         scrollTo(0, 0);
+        document.title = 'Baliqchi tuman hokimligi | 404 Sahifa mavjud emas!';
     })
     return (
         <div className='py-12 max-800:py-10 max-550:pt-6'>
