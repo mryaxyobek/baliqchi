@@ -13,7 +13,13 @@ const Header = () => {
     useEffect(() => {
         setOpenNavbarMenu(false);
     }, [location]);
-
+    window.addEventListener('resize', function () {
+        setDropdown_1(false);
+        setDropdown_2(false);
+        setDropdown_3(false);
+        setDropdown_4(false);
+        setOpenNavbarMenu(false);
+    })
     const [dropdown_1, setDropdown_1] = useState(false);
     const dropdown1 = () => {
         if (window.innerWidth < 950) {
