@@ -165,7 +165,7 @@ const Header = () => {
                         <a href="tel:+9987776655" className="hidden w-full py-3 px-6 text-white rounded-full bg-[#2E4374] text-sm max-950:block text-center">Qo'ng'iroq qilish</a>
                     </div>
 
-                    <a href="tel:+9987776655" className="py-3 inline-block px-6 text-white rounded-full bg-[#2E4374] text-sm max-1130:hidden">Qo'ng'iroq qilish</a>
+                    <a href="tel:+998743232211" className="py-3 inline-block px-6 text-white rounded-full bg-[#2E4374] text-sm max-1130:hidden">Qo'ng'iroq qilish</a>
 
 
                     <button onClick={() => setOpenNavbarMenu(!openNavbarMenu)} className="hidden max-950:block">
