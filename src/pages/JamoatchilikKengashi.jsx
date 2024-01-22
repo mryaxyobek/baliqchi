@@ -11,34 +11,36 @@ const JamoatchilikKengashi = () => {
         <div className='py-12 max-800:py-10 max-550:pt-6'>
             <div className='flex gap-5 container max-550:flex-col'>
                 <div>
-                    <h1 className='mb-5'>Jamoatchilik kengashi</h1>
+                    <h1 className='mb-5'>DAVLAT ORGANLARI HUZURIDA JAMOATCHILIK KENGASHLARI FAOLIYATINI TASHKIL ETISH CHORA-TADBIRLARI TO‘G‘RISIDA</h1>
                     <strong className='inline-block mb-10'>Jamoatchilik Kengashining asosiy vazifalari:</strong>
                     <ul className='grid gap-3 list-disc pl-5'>
                         <li>
-                            <p>Qabul qilinayotgan normativ-huquqiy hujjatlarda, qarorlarda, shuningdek, davlat, tarmoq va hududiy rivojlantirish dasturlarida jamoatchilik manfaatlari va jamoatchilik fikri hisobga olinishi, fuqarolarning, yuridik shaxslarning huquqlari va qonuniy manfaatlarini, jamiyat manfaatlarini himoya qilish sohasida qonun hujjatlari talablari ijrosini taʼminlash, davlat organi zimmasiga yuklangan hamda ijtimoiy va jamoatchilik manfaatlariga daxl qiluvchi vazifalar va funksiyalarni bajarish, davlat xizmatlarini ko‘rsatish, ijtimoiy sheriklik doirasida amalga oshiriladigan bitimlar, shartnomalar, loyihalar va dasturlarni ro‘yobga chiqarish bo‘yicha vazirlik va uning mansabdor shaxslarining faoliyati ustidan jamoatchilik nazoratini amalga oshirish;</p>
+                            <p>O‘tgan davr mobaynida mamlakatimizda mustaqil fuqarolik institutlarini rivojlantirish va mustahkamlash, ularning erkin faoliyati kafolatlarini ta’minlash, davlat organlarining fuqarolar bilan yaqin hamkorligini yo‘lga qo‘yish, ularning ochiq, shaffof va oshkora faoliyat ko‘rsatishini ta’minlash, davlat organlari faoliyati ustidan ta’sirchan jamoatchilik nazoratini o‘rnatish yuzasidan kompleks va izchil ishlar amalga oshirildi.</p>
                         </li>
                         <li>
-                            <p>Birgalikda muloqot qilish, vazirlikning nodavlat notijorat tashkilotlari, ommaviy axborot vositalari va fuqarolik jamiyatining boshqa institutlari bilan samarali hamkorligini taʼminlash uchun davlat organini fuqarolar bilan bog‘lab turadigan “ko‘prik” rolini bajarish;</p>
+                            <p>Xususan, O‘zbekiston Respublikasi Prezidentining Virtual qabulxonasi va Xalq qabulxonalari faoliyati tashkil etildi, davlat organlari va muassasalari faoliyati ustidan jamoatchilik nazoratini tashkil etish va amalga oshirish sohasidagi munosabatlarni tartibga soluvchi “Jamoatchilik nazorati to‘g‘risida”gi O‘zbekiston Respublikasi Qonuni qabul qilindi.</p>
                         </li>
                         <li>
-                            <p>Fuqarolarning huquqlari, erkinliklari va qonuniy manfaatlariga daxl qiluvchi eng muhim masalalar yuzasidan davlat organining faoliyati haqidagi jamoatchilik fikrini tizimli monitoring qilish va har tomonlama tahlil qilish, sotsiologik so‘rovlar o‘tkazish, jumladan ularni axborot-kommunikatsiya texnologiyalaridan foydalangan holda o‘tkazish;</p>
+                            <p>Bunda davlat organlarining nodavlat notijorat tashkilotlari va fuqarolik jamiyatining boshqa institutlari bilan ijtimoiy sherikligini amalga oshirishning huquqiy mexanizmlari yaratildi, davlat organlari faoliyati ochiqligini ta’minlashning huquqiy asoslari shakllantirildi, jismoniy va yuridik shaxslar murojaatlarini ko‘rib chiqish tizimi tubdan isloh qilindi, korrupsiyaga qarshi kurashish mexanizmlarining qonunchilik asoslari yaratildi, shuningdek, “Elektron hukumat” tizimi bosqichma-bosqich joriy etilmoqda va ro‘yobga chiqarilmoqda.</p>
                         </li>
                         <li>
-                            <p>Vazirlik faoliyatida korrupsiyaga qarshi kurashish sohasidagi davlat dasturlari va boshqa dasturlarni ishlab chiqish hamda amalga oshirishda ishtirok etish, korrupsiyaga qarshi kurashish bo‘yicha olib borilgan ishlar ustidan monitoring va tahlil o‘tkazish, shuningdek, ularning natijalari bo‘yicha takliflar tayyorlash;</p>
+                            <p>Shu bilan birga, O‘zbekiston Respublikasi Prezidentining Virtual qabulxonasi va Xalq qabulxonalariga kelib tushayotgan murojaatlar tahlili, shuningdek, fuqarolar bilan tashkil etilayotgan uchrashuvlar natijalari davlat va jamiyat o‘rtasida samarali muloqotni yo‘lga qo‘yishda qator muammolar mavjudligini ko‘rsatmoqda. Xususan:</p>
                         </li>
                         <li>
-                            <p>Vazirlik faoliyatining ochiqligini taʼminlash bo‘yicha amalga oshirilayotgan tadbirlarni monitoring qilish, uning faoliyati to‘g‘risida batafsil axborot olish imkoniyatlarini tahlil qilish, ularni yana-da kengaytirish bo‘yicha takliflar ishlab chiqish;</p>
+                            <p>birinchidan, muloqotni amalga oshirishda davlat organlari va fuqarolar o‘rtasida bog‘lab turuvchi “ko‘prik”ning yo‘qligi davlat organlari faoliyatidagi muammolarni aniqlash hamda fuqarolarning huquqlari va qonuniy manfaatlarini himoya qilish jarayonlariga salbiy ta’sir ko‘rsatmoqda;</p>
                         </li>
                         <li>
-                            <p>Vazirlik faoliyatini isloh qilishda fuqarolar ishtirok etishi uchun yaratilgan shart-sharoitlarni o‘rganish va ularni yaxshilash bo‘yicha takliflar ishlab chiqish;</p>
+                            <p>ikkinchidan, jismoniy va yuridik shaxslarning murojaatlarini ko‘rib chiqish masalalariga mas’uliyatsizlik bilan yondashish, jumladan fuqarolarning qonun hujjatlarini takomillashtirishga va jamiyatdagi muammolarni hal qilishga doir takliflariga beparvo munosabatda bo‘lish holatlari davlat organlari faoliyatining samaradorligini oshirishga hamda davlat va xalq o‘rtasida “muloqot maydoni”ni shakllantirishga to‘sqinlik qilmoqda;</p>
                         </li>
                         <li>
-                            <p>Vazirlik faoliyati bo‘yicha fuqarolar o‘rtasida o‘tkaziladigan tushuntirish ishlari va maʼnaviy-maʼrifiy tadbirlarda ishtirok etish, ularning samaradorligini oshirish yuzasidan takliflar ishlab chiqish;</p>
+                            <p>uchinchidan, fuqarolarda davlat organlari faoliyati to‘g‘risida batafsil axborot olish imkoniyatining yo‘qligi, ko‘pchilik hollarda ularga bunday axborotni taqdim etish asossiz ravishda rad etilayotganligi xalqning davlat organlariga bo‘lgan ishonchini pasaytirmoqda;</p>
                         </li>
                         <li>
-                            <p>Vazirlik xodimlari va ular oilalarining uy-joy, ijtimoiy-maishiy, xizmat shart-sharoitlarini, ularga malakali tibbiy yordam ko‘rsatish sharoitlarini, shuningdek, ishdan bo‘shatilgan yoki zaxiraga olingan xodimlarni ijtimoiy va kasbiy moslashtirish bo‘yicha muammolarni kompleks tahlil qilish hamda tahlil yakunlari bo‘yicha mazkur sharoitlarni yaxshilash yuzasidan takliflar kiritish.</p>
+                            <p className='line-clamp-3'>to‘rtinchidan, davlat organlari faoliyatida sog‘lom ishchanlik muhitini va qonuniylikni joriy etishga, xodimlarning huquqiy madaniyatini yuksaltirishga qaratilgan chora-tadbirlarning lozim darajada amalga oshirilmasligi ular tomonidan o‘z vakolatlarini suiiste’mol qilish holatlari ko‘payishi, fuqarolarning huquqlari buzilishi, davlat organlari xodimlari xatti-harakatlari ustidan shikoyatlar sonining ortishi va aholining davlat organlari faoliyatidan noroziligi kuchayishi uchun shart-sharoitlar yaratmoqda;</p>
                         </li>
                     </ul>
+
+                    <a href="https://lex.uz/docs/-3808838?ONDATE=15.06.2022" target='_blank' className="inline-block py-3 px-6 rounded-full border-gray-400 border mt-5">Ba'tafsil o'qish</a>
                 </div>
 
                 <div className="min-w-[310px] space-y-6 max-800:hidden max-550:block max-550:min-w-0">
