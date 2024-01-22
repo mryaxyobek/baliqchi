@@ -31,7 +31,7 @@ const Yangiliklar = () => {
                                     <h1>{yangilik.title}</h1>
                                     <p className="text-gray-600">{yangilik.date.toDateString()}</p>
                                     <img
-                                        className="w-full h-96 object-cover object-top rounded bg-gray-400 max-700:h-72 max-550:h-64"
+                                        className="w-full h-96 object-cover object-center rounded bg-gray-400 max-700:h-72 max-550:h-64"
                                         src={yangilik.image}
                                         alt=""
                                         onClick={() => {
@@ -85,7 +85,7 @@ const Yangiliklar = () => {
                         <img
                             src={hokim}
                             alt="Baliqchi tumani"
-                            className="w-full rounded-md border h"
+                            className="w-full rounded-md border "
                         />
                         <a target='_blank' href='https://t.me/baliqchi_hokimga_murojat_bot' className="block w-full bg-[#424769] text-white py-2 rounded-md">Murojaat Qilish</a>
                     </div>

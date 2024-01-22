@@ -14,56 +14,14 @@ import {
 export const news = [
     {
         id: randomId(),
-        title:
-            "Andijon viloyati hokimi suvchilarga 64 mln so‘m tarqatdi, bu homiylik mablag‘lari ekani aytilmoqda ",
+        title: "YOSHLAR SANOAT ZONASID YANGI ISH ORINLARI YARATILMOQDA",
         subTitle:
             "Shuhrat Abdurahmonov ko‘chada ishlayotgan suvchilarni ko‘rgach, 64 million so‘m naqd pulni olib, 16 nafar suvchiga 4 million so‘mdan tarqatgan. ",
         image: new1,
         description: [
-            "Andijon viloyati hokimi Shuhratbek Abdurahmonov suvchilarga 4 million so‘mdan mukofot puli berdi. Bu haqdagi video hokimning Telegram-kanalida e’lon qilindi. ",
-            "«Shuhratbek Abdurahmonov ichimlik suvi ta’minotidagi nosozliklarni bartaraf etayotgan ishchi xodimlarga 4 million so‘mdan mukofot pullarini topshirdi», deyiladi xabarda. ",
-            "Qayd qilinishicha, Shuhrat Abdurahmonov ko‘chada ishlayotgan suvchilarni ko‘rgach, 64 million so‘m naqd pulni olib, 16 nafar suvchiga 4 million so‘mdan tarqatgan. ",
+            "Baliqchi tumanidagi 71 nafar yosh tadbirkorlarning biznes loyihalarini amalga oshiradigan tuzilmalari uchun yoshlar kichik sanoat zonasi tashkil etilib, suv, yo'l, elektr energiyasi kabi kommunal infratuzilmaga beriladi. O\'tgan davr mobaynida yosh tadbirkorlar sanoat zonasida ishlab chiqarish chikarish maydonlarini barpo etishdi. Bugunga kelib yoshlar sanoat zonasida 38 ta ishga tushirish ishlab chiqarish 210 dan yangi ziyod ish urni yaratildi. Yosh tadbirkorlar bilan muloqot qilish fog hokimi Zhasurbek Abduraimov, rakhbari sektor, fog IIB boshligi Dilshodbek Tozhiboev yoshlar sanoat zonasida bulib ishlab chiqarilgan mahsulotlar namunalari bilan tanishishdi.Tadbirkorlar takliflari izhrosi byyicha masullarga topshiriqlar berildi.Belgilangan boshqaruv ijrosi monitoringi.",
         ],
-        date: new Date(2023, 11, 25),
-    },
-    {
-        id: randomId(),
-        title: "BAA Andijonda arab tajribasi asosida bog‘ yaratmoqda",
-        subTitle:
-            "Qishloq xo‘jaligi vazirligi huzuridagi Qishloq xo‘jaligida xizmatlar ko‘rsatish agentligi va Birlashgan Arab Amirliklari hamkorligida Andijon viloyati Paxtaobod tumani hududida 470 gektar yer maydonida bog‘ yaratilmoqda.",
-        image: new2,
-        description: [
-            "Loyihaning birinchi bosqichida maydonning 20 gektar qismiga golubika rezavori sinov tariqasida tuvaklarda yetishtirilmoqda. Maydon hududi to‘liq tomchilatib sug‘orish tizimi bilan ta’minlangan.",
-            "Loyiha to‘liq ishga tushgach 2000 ta yangi ish o‘rni yaratiladi. Ushbu rezavor issiqlikka chidamsiz bo‘lgani bois kelgusida maxsus to‘rlar bilan himoyalanadi. Bir gektar maydonga 4000 tup ekilishi natijasida o‘rtacha 400-500 tonna hosil olinishi kutilmoqda.",
-            "Qiymati 30 mln AQSh dollariga teng mazkur loyiha doirasida golubika bilan birga, malina va sabzavot mahsulotlarini ham yetishtirish rejalashtirilgan.",
-        ],
-        date: new Date(2024, 0, 12),
-    },
-    {
-        id: randomId(),
-        title: "Andijon va Farg‘onada elektrobus ishlab chiqarish boshlanadi",
-        subTitle:
-            "Farg‘onada DongFeng Special Car kompaniyasi bilan hamkorlikda yiliga 1000 ta, Andijonda Lanzhou Guangtong New Energy Automobile kompaniyalari bilan hamkorlikda 2000 ta elektrobuslar ishlab chiqarish yo‘lga qo‘yiladi.",
-        image: new3,
-        description: [
-            "Transport vazirining birinchi o‘rinbosari Mamanbiy Omarov Xitoyning DongFeng bosh direktori Van Pen bilan uchrashuv o‘tkazdi. Bu haqda “Dunyo” AA xabar berdi.",
-            "Qayd etilishicha, uchrashuvda jamoat transporti tizimini rivojlantirish bo‘yicha amalga oshirilayotgan loyihalar, mavjud ehtiyojlar va harakat tarkibini zamonaviy avtobus va mikroavtobuslar bilan yangilash zarurati yuzasidan fikr almashilgan.",
-            "DongFeng Special Car kompaniyasi bilan hamkorlikda Farg‘ona viloyati Furqat tumanida 2 bosqichda, umumiy qiymati 100 mln dollarga teng bo‘lgan, yiliga 1000 dona elektrobuslar ishlab chiqarish loyihasini amalga oshirish rejalashtirilgan.",
-            "Bundan tashqari, Andijon viloyati hokimi Shuhrat Abdurahmonov boshchiligidagi delegatsiya  O‘zbekistonning Xitoydagi elchixonasida Lanzhou Guangtong New Energy Automobile rahbariyati bilan uchrashuv o‘tkazib, qiymati 100 mln dollarlik ikki tomonlama memorandum imzoladi.",
-        ],
-        date: new Date(2024, 0, 9),
-    },
-    {
-        id: randomId(),
-        title:
-            "Xalq dеputatlari Andijon viloyati Kеngashining navbatdagi 58-sеssiyasi bo'lib o'tdi.",
-        subTitle:
-            "Xalq dеputatlari Andijon viloyati Kеngashining navbatdagi 58-sеssiyasi bo'lib o'tdi.",
-        image: new4,
-        description: [
-            "Sеssiya kun tartibiga kiritilgan masalalar yuzasidan tеgishli boshqarmalar mas'ullarining hisobotlari tinglanib, qaror loyihalari tasdiqlandi.",
-        ],
-        date: new Date(2024, 0, 18),
+        date: new Date(2023, 1, 20),
     },
     {
         id: randomId(),
@@ -75,6 +33,38 @@ export const news = [
             "Unda Andijondagi bir nеchta hududlarda gidroelеktrostansiyalar qurish bo'yicha rеjalar muhokama etildi va amaliy ishlar boshlanish arafasida.",
         ],
         date: new Date(2024, 0, 17),
+    },
+    {
+        id: randomId(),
+        title: "Baliqchi tumani hokimligi faollar zalida hokim va yoshlar uchrashuvi o'tkazildi",
+        subTitle:
+            "Qishloq xo‘jaligi vazirligi huzuridagi Qishloq xo‘jaligida xizmatlar ko‘rsatish agentligi va Birlashgan Arab Amirliklari hamkorligida Andijon viloyati Paxtaobod tumani hududida 470 gektar yer maydonida bog‘ yaratilmoqda.",
+        image: new2,
+        description: [
+            "Tuman hokimi Jasurbek Abduraimov, tuman IIB boshligi Dilshodbek Toxiboev, tuman mudofaa bulimi boshligi Kelsinboy Mirzakamolov yoshlarni garbiy vatanparvarlik ruhida tarbiyalash, Uzbekiston kurolli kuchlarida amalga oshirilayotgan islohotlar heat yoni xaqida so\'zlashdi. O\'zaro muloqot tarzida kechgan uchrashuvda yoshlar o'zlarini qiziqtirgan savollarga javob olishdi.",
+        ],
+        date: new Date(2024, 1, 19),
+    },
+    {
+        id: randomId(),
+        title: "#live",
+        image: new3,
+        description: [
+            "Andijon viloyati oʻsimliklar karantini va himoyasi boshqarmasi Baliqchi tumanidagi Biolaboratoryada o\'simliklarni zararkunandalardan himoya qilish boʻyicha seminar oʻkazilmokda. Unda viloyatdagi soxa mutaxassilari ishtirok etishayapti. Jarayonda joriy biolaboratoriyalar markazi yil samarali tashkil etish masalalari muxokamalarda belyapti.",
+        ],
+        date: new Date(2024, 0, 9),
+    },
+    {
+        id: randomId(),
+        title:
+            "Shuhratbek Abdurahmonov O'zbekiston-Xitoy mintaqalararo forumida",
+        subTitle:
+            "Xalq dеputatlari Andijon viloyati Kеngashining navbatdagi 58-sеssiyasi bo'lib o'tdi.",
+        image: new4,
+        description: [
+            "Aini kunlarda Hitoining eng yirik mamuriy-hududiy birligi hisoblangan Xinjiang-Uyghur avtonom tumani Khitoy-Uzbekistan mintaqalararo (birinchi) forumi bwlib o'tmokda. Viloyatimiz rahbari boshchiligidagi Andijon bu yilgi forumda ishtirok etishmokda. Forum uchun ikki mamlakat tomonidan belgilab dasturilash marosimi o'tdi.",
+        ],
+        date: new Date(2024, 0, 18),
     },
     {
         id: randomId(),
