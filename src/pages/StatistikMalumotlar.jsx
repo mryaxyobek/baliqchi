@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import hokim from '../assets/images/other/hokim.png';
 import baliqchi from '../assets/images/svg/Frame.svg';
 const StatistikMalumotlar = () => {
+    const siteLink = window.location.origin;
     useEffect(() => {
         scrollTo(0, 0);
         document.title = 'Baliqchi tuman hokimligi | Statistik ma\'lumotlar';
@@ -12,25 +13,10 @@ const StatistikMalumotlar = () => {
             <section className='pt-8 pb-16'>
                 <div className="flex gap-5 container max-800:flex-col">
                     <div className='space-y-4'>
-                        <h1 className='mb-6'>Statistik ma'lumotlar</h1>
-                        <strong className="block mb-8">O'ZBEKISTONDA STATISTIKA TIZIMINING RIVOJLANISH SOLNOMASI</strong>
-                        <p className='leading-6'>1868y. Turkiston General Gubernatorligi General-Gubernatorining 1868 yil 22 yanvardagi 13-sonli buyrug'iga asosan Turkiston statistika qo'mitasi tashkil etilgan. Qo'mita General - Gubernatorlik kantselyariyasi mudiri raisligida faoliyat yuritgan.</p>
-                        <p className='leading-6'>1887y. O'lka General Gubernatorining 1887 yil 29 avgustdagi 98-sonli buyrug'iga asosan Sirdaryo, Samarqand va Farg'ona viloyatlari statistika qo'mitalari tashkil etilgan. Ushbu qo'mitalar Rossiya Ichki ishlar vazirligi Markaziy statistika qo'mitasining bevosita rahbarligi ostida faoliyat yuritgan.</p>
-                        <p className='leading-6'>1919y. Turkiston aSSR Markaziy ijroiya komitetining 1919 yil 17 dekabrdagi 140-sonli dekretiga asosan Turkiston aSSR Markaziy statistika boshqarmasi tashkil etilgan.</p>
-                        <p className='leading-6'>1924y. SSSR Markaziy statistika boshqarmasi O'rta Osiyo bo'yicha muxtor vakilining 1924 yil 30 noyabrdagi 1-sonli buyrug'iga asosan O'zbekiston SSR Markaziy statistika boshqarmasi tashkil etilgan. Boshqarma 1925 yil 22 martdan O'zbekiston SSR Markaziy ijroiya komitetining qaroriga asosan Samarqand shahriga (Qarshi ko'chasi 18-uy) ko'chirilgan va 1931 yil 7 yanvargacha shu joyda faoliyat olib borgan.
-                        </p>
-                        <p className='leading-6'>1930y. SSSR Xalq komissarlari soveti va Markaziy ijroiya komitetining 1930 yil 23 yanvardagi qaroriga asosan O'zbekiston SSR Davlat plan komitetining Iqtisodiy-statistik sektori tashkil etilgan.</p>
-                        <p className='leading-6'>1931y. SSSR Xalq komissarlari soveti va Markaziy ijroiya komitetining 1931 yil 17 dekabrdagi qaroriga asosan O'zbekiston SSR Davlat plan komiteti huzuridagi Xalq xo'jaligi hisobi boshqarmasi tashkil etilgan.</p>
-                        <p className='leading-6'>1941y. SSSR Xalq komissarlari soveti va TSK VKP(b)ning 1941 yil 21 martdagi qarori hamda SSSR Davlat plan komiteti Markaziy statistika boshqarmasining 1941 yil 27 martdagi 77-sonli buyrug'iga asosan O'zbekiston SSR Statistika boshqarmasi tashkil etilgan.</p>
-                        <p className='leading-6'>1944y. SSSR Xalq komissarlari sovetining 1943 yil 15 dekabrdagi 1377-sonli qarori va SSSR Davlat plan komitetining 1943 yil 23 dekabrdagi 1319-sonli buyrug'iga asosan SSSR Davlat plan komitetining O'zbekiston SSR bo'yicha Muxtor statistika boshqarmasi tashkil etilgan.
-                        </p>
-                        <p className='leading-6'>1948y. SSSR Ministrlar Sovetining 1948 yil 10 avgustdagi 3018-sonli qarori va SSSR Markaziy statistika boshqarmasining 1948 yil 14 avgustdagi 14-sonli buyrug'iga asosan O'zbekiston SSR Ministrlar Soveti huzuridagi Statistika boshqarmasi tashkil etilgan.</p>
-                        <p className='leading-6'>1960y. O'zbekiston SSR Oliy Soveti Prezidiumining 1960 yil 9 fevraldagi 75-sonli farmoniga asosan O'zbekiston SSR Ministrlar Soveti huzuridagi Markaziy statistika boshqarmasi tashkil etilgan.</p>
-                        <p className='leading-6'>1978y. O'zbekiston SSR Oliy Sovetining 1978 yil 26 iyuldagi 492-IX-sonli qaroriga asosan O'zbekiston SSR Markaziy statistika boshqarmasi tashkil etilgan.</p>
-                        <p className='leading-6'>1987y. O'zbekiston SSR Oliy Soveti Prezidiumining 1987 yil 24 avgustdagi 1867-XI-sonli farmoniga asosan O'zbekiston SSR Davlat statistika komiteti tashkil etilgan.</p>
-                        <p className='leading-6'>1992y. O'zbekiston Respublikasi Prezidentining 1992 yil 5 avgustdagi “O'zbekiston Respublikasi Prezidenti huzuridagi Vazirlar Mahkamasining Istiqbolni belgilash va statistika davlat komitetini tashkil etish to'g'risida”gi PF-449-sonli farmoniga asosan O'zbekiston Respublikasi Prezidenti huzuridagi Vazirlar Mahkamasining Istiqbolni belgilash va statistika davlat komiteti tashkil etilgan.</p>
-                        <p className='leading-6'>1997y. O'zbekiston Respublikasi Prezidentining 1997 yil 15 maydagi “O'zbekiston Respublikasi Istiqbolni belgilash va statistika davlat qo'mitasini Makroiqtisodiyot va statistika vazirligigaylantirish to'g'risida”gi PF-1870-sonli farmoniga asosan O'zbekiston Respublikasi Makroiqtisodiyot va statistika vazirligi tashkil etilgan.</p>
-                        <p className='leading-6'>2002y. O'zbekiston Respublikasi Prezidentining 2002 yil 24 dekabrdagi “Makroiqtisodiyot va statistika vazirligini qayta tashkil etish to'g'risida”gi PF-3183-sonli farmoni hamda O'zbekiston Respublikasi Vazirlar Mahkamasining 2003 yil 8 yanvardagi “O'zbekiston Respublikasi Davlat statistika qo'mitasi faoliyatini tashkil etish to'g'risida”gi 8-sonli qaroriga asosan O'zbekiston Respublikasi Davlat statistika qo'mitasi tashkil etilgan.</p>
+                        <h1 className='mb-6'>Baliqchi tuman statistik ma'lumotlari</h1>
+                        <strong className="block mb-8">Quyidagi faylni yuklab olish orqali Baliqchi tumanining rasmiy statistik ma'lumotlarini ko'rishingiz mumkin. Faylni yuklab olish uchun "FAYLNI YUKLAB OLISH" tugmasini bosing</strong>
+
+                        <a href={`${siteLink}/src/assets/other-files/statistika.docx`} download className="inline-block py-3 px-6 rounded-full border-gray-400 border">Faylni yuklab olish</a>
                     </div>
 
                     <div className="min-w-[310px] space-y-6 max-800:hidden max-550:block max-550:min-w-0">
