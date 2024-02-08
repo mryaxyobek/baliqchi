@@ -32,7 +32,7 @@ const XalqaroMunosabat = () => {
                         <p>Eksport tarkibidagi tovar va xizmatlar ulushi, % da</p>
                         <p>Eksport tarkibida tovarlar ulushi 100,0 % ni tashkil etib, ular asosan material turiga qarab klassifikatsiyalangan sanoat tovarlari (87,0 %), turli xil tayyor buyumlar (7,7 %), nooziq-ovqat xomashyo, yoqilg‘idan tashqari (3,6 %), oziq-ovqat mahsulotlari va tirik hayvonlar (1,7 %) hissasiga to‘g‘ri kelmoqda.</p>
                         <img src={exportt} alt="" className='w-full h-auto bg-gray-300' />
-                        <a href={`${siteLink}/${exportt}`} download className='inline-block rounded-full py-2.5 px-6 border border-gray-400'>Rasmni yuklab olish</a>
+                        <a href={`${siteLink}${exportt}`} download className='inline-block rounded-full py-2.5 px-6 border border-gray-400'>Rasmni yuklab olish</a>
                     </div>
                 </div>
 

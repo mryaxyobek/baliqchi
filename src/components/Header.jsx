@@ -60,10 +60,10 @@ const Header = () => {
                     <Link to='/' className='flex gap-2 items-center'>
                         <img src={coatOfArms} alt="flag" className="w-16 h-16 max-550:w-12 max-550:h-12" />
                         <img src={flag} alt="flag" className="w-[3px] h-16 rounded-[1px] max-550:h-8 max-950:h-12" />
-                        <div>
+                        <h1 className='flex flex-col'>
                             <strong className="block font-bold text-xl max-550:text-lg max-450:text-base !leading-[22px] max-w-[200px]">Baliqchi tuman hokimligi</strong>
-                            <p className="text-base font-normal max-450:text-sm max-450:font-medium max-950:hidden">Rasmiy web sayti</p>
-                        </div>
+                            <span className="text-base font-normal max-450:text-sm max-450:font-medium max-950:hidden">Rasmiy web sayti</span>
+                        </h1>
                     </Link>
                     {/* overlay */}
                     <div onClick={() => setOpenNavbarMenu(false)} className={`${openNavbarMenu ? 'block' : 'hidden'} fixed z-10 min-w-full h-screen bg-black bg-opacity-75 top-0 right-0`}></div>
@@ -101,6 +101,9 @@ const Header = () => {
                                             <img width={16} height={16} src={down} alt="down outline icon" className={`${dropdown_2 ? '!rotate-180' : ''}`} />
                                         </div>
                                         <ul className={`${dropdown_2 ? '!block' : 'max-950:max-950-hidden'} dropdown_menu`}>
+                                            <li className='menu_item'>
+                                                <Link to='/static/hisobot'>2023-yil hisobot</Link>
+                                            </li>
                                             <li className='menu_item'>
                                                 <Link to='/static/harakatlar-strategiyasi'>Harakatlar strategiyasi</Link>
                                             </li>
@@ -155,7 +158,7 @@ const Header = () => {
                                                 <Link to='/news/all-news'>Yangiliklar</Link>
                                             </li>
                                             <li className='menu_item'>
-                                                <Link to='/contact'>Bog'lansih</Link>
+                                                <Link to='/contact'>Bog'lanish</Link>
                                             </li>
                                         </ul>
                                     </div>
