@@ -2,8 +2,14 @@ import React, { useEffect } from "react";
 import hokim from "../assets/images/other/hokim.png";
 import baliqchi from "../assets/images/svg/Frame.svg";
 
+import adliya from "../assets/docs/adliya.pdf";
+import iib from "../assets/docs/iib.pdf";
+import mib from "../assets/docs/mib.pdf";
+import qabulxona from "../assets/docs/qabulxona.pdf";
+import zamiib from "../assets/docs/zamiib.pdf";
+
 const Hisobot = () => {
-  const siteLink = 'http://baliqchi.org.uz';
+  const siteLink = window.location.origin;
   useEffect(() => {
     scrollTo(0, 0);
     document.title = "Baliqchi tuman hokimligi | 2023-yil isobot";
@@ -26,7 +32,7 @@ const Hisobot = () => {
               </h3>
 
               <a
-                href={`${siteLink}/src/assets/adliya.pdf`}
+                href={`${siteLink}${adliya}`}
                 download
                 className="max-800:text-sm whitespace-nowrap rounded-full border border-gray-400 py-3 px-6"
               >
@@ -46,7 +52,7 @@ const Hisobot = () => {
               </h3>
 
               <a
-                href={`${siteLink}/src/assets/iib.pdf`}
+                href={`${siteLink}${iib}`}
                 download
                 className="max-800:text-sm whitespace-nowrap rounded-full border border-gray-400 py-3 px-6"
               >
@@ -68,7 +74,7 @@ const Hisobot = () => {
               </h3>
 
               <a
-                href={`${siteLink}/src/assets/zamiib.pdf`}
+                href={`${siteLink}${zamiib}`}
                 download
                 className="max-800:text-sm whitespace-nowrap rounded-full border border-gray-400 py-3 px-6"
               >
@@ -88,7 +94,7 @@ const Hisobot = () => {
               </h3>
 
               <a
-                href={`${siteLink}/src/assets/docs/mib.pdf`}
+                href={`${siteLink}${mib}`}
                 download
                 className="max-800:text-sm whitespace-nowrap rounded-full border border-gray-400 py-3 px-6"
               >
@@ -106,7 +112,7 @@ const Hisobot = () => {
               </h3>
 
               <a
-                href={`${siteLink}/src/assets/docs/qabulxona.pdf`}
+                href={`${siteLink}${qabulxona}`}
                 download
                 className="max-800:text-sm whitespace-nowrap rounded-full border border-gray-400 py-3 px-6"
               >
