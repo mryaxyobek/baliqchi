@@ -10,7 +10,7 @@ const HomePageHero = () => {
                     <h1 className="text-white z-20 text-5xl font-semibold max-w-[800px] mb-10 leading-[52px] max-800:text-4xl max-550:text-3xl">Baliqchi tumani hokimligining rasmiy web saytiga xush kelibsiz!</h1>
                     <div className="flex gap-8 max-600:gap-5 max-450:flex-col">
                         <Link to='/contact' className='bg-white rounded-md px-7 py-3 text-[#2E4374] text-center'>Murojaat qilish</Link>
-                        <Link to='/news/all-news' className='bg-white rounded-md px-7 py-3 text-[#2E4374] text-center'>So'nggi yangiliklar</Link>
+                        <Link to='/news' className='bg-white rounded-md px-7 py-3 text-[#2E4374] text-center'>So'nggi yangiliklar</Link>
                     </div>
                 </div>
             </div>
