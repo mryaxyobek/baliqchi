@@ -38,20 +38,20 @@ export const news = [
     },
     {
         id: randomId(),
-        title: "Baliqchi tumani Chinobod shaharchasi markazida mehnat yarmarkasi o‘tkazildi.",
+        title: "Baliqchi tumani Chinobod shaharchasi markazida mehnat yarmarkasi o'tkazildi.",
         image: [yarmarka],
         description: [
-            "Baliqchi tumani Chinobod shaharchasi markazida mehnat yarmarkasi o‘tkazildi. Unda tashkilot,muassasa va sanoat korxonalari bo‘sh ish o‘rinlari bilan qatnashdi.",
+            "Baliqchi tumani Chinobod shaharchasi markazida mehnat yarmarkasi o'tkazildi. Unda tashkilot,muassasa va sanoat korxonalari bo'sh ish o'rinlari bilan qatnashdi.",
         ],
         videoSrc: 'https://www.youtube.com/embed/KdYFT5mbuog?si=b7zJumOkRFnl5J49',
         date: new Date(2024, 0, 31),
     },
     {
         id: randomId(),
-        title: "Voleybol bo‘yicha viloyat ichki ishlar boshqarmasi boshlig‘i sovrini uchun xotin - qizlar o‘rtasida musobaqa bo‘lib o‘tdi.",
+        title: "Voleybol bo'yicha viloyat ichki ishlar boshqarmasi boshlig'i sovrini uchun xotin - qizlar o'rtasida musobaqa bo'lib o'tdi.",
         image: [valeybol, valeyboll],
         description: [
-            "Voleybol bo‘yicha viloyat ichki ishlar boshqarmasi boshlig‘i sovrini uchun xotin - qizlar o‘rtasida musobaqa bo‘lib o‘tdi. Voleybol bahslari viloyatning barcha shahar, tumanlarida o‘tkazilib, o‘yinlarda 2 ming nafardan ziyod xotin-qiz ishtirok etdi. Baliqchi tumanidagi musobaqaning ochilish marosimida tuman hokimi Jasurbek Abdurayimov, tuman IIB boshlig'i D.Tojiboev jamoalarni tabriklab, bahslarda omad yor bo‘lishini tilashdi. Maydonda 7 ta jamoa g‘oliblik uchun o‘zaro bahs olib borishdi. Yakunda Jasorat mahallasi xotin - qizlar jamoasi g‘alaba qozondi. Sovrinli o‘rinlar Turkiston va Sortepa mahallasi jamoalariga nasib etdi.",
+            "Voleybol bo'yicha viloyat ichki ishlar boshqarmasi boshlig'i sovrini uchun xotin - qizlar o'rtasida musobaqa bo'lib o'tdi. Voleybol bahslari viloyatning barcha shahar, tumanlarida o'tkazilib, o'yinlarda 2 ming nafardan ziyod xotin-qiz ishtirok etdi. Baliqchi tumanidagi musobaqaning ochilish marosimida tuman hokimi Jasurbek Abdurayimov, tuman IIB boshlig'i D.Tojiboev jamoalarni tabriklab, bahslarda omad yor bo'lishini tilashdi. Maydonda 7 ta jamoa g'oliblik uchun o'zaro bahs olib borishdi. Yakunda Jasorat mahallasi xotin - qizlar jamoasi g'alaba qozondi. Sovrinli o'rinlar Turkiston va Sortepa mahallasi jamoalariga nasib etdi.",
         ],
         date: new Date(2024, 0, 31),
     },
@@ -151,7 +151,7 @@ export const news = [
         title: "O'zbekiston Respublikasi Prezidenti parlamentlararo munosbatlarni yanada rivojlantirish muhimligini qayd etdi",
         image: [china],
         description: [
-            "24-yanvar kuni O'zbekiston Respublikasi Prezidenti Shavkat Mirziyoyev Xitoyga davlat tashrifi doirasida Xalq siyosiy maslahat kengashi Butunxitoy qo'mitasi Raisi CHjao Letszi bilan uchrashiv o'tkazdi. Suhbatda O‘zbekiston-Xitoy munosabatlarida yuksak darajaga erishilgani mamnuniyat bilan qayd etilib, bu galgi tashrif har tomonlama strategik sheriklikni kengaytirishga yangi kuchli sur’at bag‘ishlashiga ishonch bildirildi. Keyingi yillarda o‘zaro savdo hajmi ikki barobar, qo‘shma korxonalar soni uch barobar oshdi. Hududlararo kooperatsiya kengaydi, 22 yanvar kuni Urumchi shahrida bo‘lib o‘tgan birinchi O‘zbekiston-Xitoy hududlar forumining samarali natijalari bundan dalolat bermoqda. Xitoyning kambag‘allikka qarshi kurashish borasidagi tajribasi faol joriy qilinmoqda. Uchrashuvda mamlakatimiz texnik yo‘nalishlar bo‘yicha mutaxassislar tayyorlash markazlarini tashkil etish, Xitoyning ijtimoiy himoya va sug‘urta, aholiga manzilli yordam ko‘rsatish borasidagi tajribasini o‘rganishdan manfaatdor ekani ta’kidlandi. Parlamentlar o‘rtasidagi muloqotni kengaytirish va “O‘zbekiston-Xitoy” do‘stlik guruhlarini faollashtirish zarurligi qayd etildi. Oliy darajadagi kelishuvlarning amalga oshirilishi ustidan ta’sirchan parlament nazoratini ta’minlashga alohida e’tibor qaratildi. Madaniy-gumanitar aloqalarni mustahkamlash masalalari yuzasidan fikr almashildi. O‘tgan yili O‘zbekistonda Xitoy madaniyati kunlari o‘tkazilgani, ayni paytda Pekinda O‘zbekiston madaniyati kunlari doirasida o‘tayotgan tadbirlar mamnuniyat bilan qayd etildi.",
+            "24-yanvar kuni O'zbekiston Respublikasi Prezidenti Shavkat Mirziyoyev Xitoyga davlat tashrifi doirasida Xalq siyosiy maslahat kengashi Butunxitoy qo'mitasi Raisi CHjao Letszi bilan uchrashiv o'tkazdi. Suhbatda O'zbekiston-Xitoy munosabatlarida yuksak darajaga erishilgani mamnuniyat bilan qayd etilib, bu galgi tashrif har tomonlama strategik sheriklikni kengaytirishga yangi kuchli sur’at bag'ishlashiga ishonch bildirildi. Keyingi yillarda o'zaro savdo hajmi ikki barobar, qo'shma korxonalar soni uch barobar oshdi. Hududlararo kooperatsiya kengaydi, 22 yanvar kuni Urumchi shahrida bo'lib o'tgan birinchi O'zbekiston-Xitoy hududlar forumining samarali natijalari bundan dalolat bermoqda. Xitoyning kambag'allikka qarshi kurashish borasidagi tajribasi faol joriy qilinmoqda. Uchrashuvda mamlakatimiz texnik yo'nalishlar bo'yicha mutaxassislar tayyorlash markazlarini tashkil etish, Xitoyning ijtimoiy himoya va sug'urta, aholiga manzilli yordam ko'rsatish borasidagi tajribasini o'rganishdan manfaatdor ekani ta’kidlandi. Parlamentlar o'rtasidagi muloqotni kengaytirish va “O'zbekiston-Xitoy” do'stlik guruhlarini faollashtirish zarurligi qayd etildi. Oliy darajadagi kelishuvlarning amalga oshirilishi ustidan ta’sirchan parlament nazoratini ta’minlashga alohida e’tibor qaratildi. Madaniy-gumanitar aloqalarni mustahkamlash masalalari yuzasidan fikr almashildi. O'tgan yili O'zbekistonda Xitoy madaniyati kunlari o'tkazilgani, ayni paytda Pekinda O'zbekiston madaniyati kunlari doirasida o'tayotgan tadbirlar mamnuniyat bilan qayd etildi.",
         ],
         date: new Date(2024, 0, 24),
     },
@@ -159,7 +159,7 @@ export const news = [
         id: randomId(),
         title: "Yoshlar sanoat zonasida yangi ish o'rinlari yaratilmoqda",
         subTitle:
-            "Shuhrat Abdurahmonov ko‘chada ishlayotgan suvchilarni ko‘rgach, 64 million so‘m naqd pulni olib, 16 nafar suvchiga 4 million so‘mdan tarqatgan. ",
+            "Shuhrat Abdurahmonov ko'chada ishlayotgan suvchilarni ko'rgach, 64 million so'm naqd pulni olib, 16 nafar suvchiga 4 million so'mdan tarqatgan. ",
         image: [new1],
         description: [
             "Baliqchi tumanidagi 71 nafar yosh tadbirkorlarning biznes loyihalarini amalga oshiradigan tuzilmalari uchun yoshlar kichik sanoat zonasi tashkil etilib, suv, yo'l, elektr energiyasi kabi kommunal infratuzilmaga beriladi. O\'tgan davr mobaynida yosh tadbirkorlar sanoat zonasida ishlab chiqarish chiqarish maydonlarini barpo etishdi. Bugunga kelib yoshlar sanoat zonasida 38 ta ishga tushirish ishlab chiqarish 210 dan yangi ziyod ish o'rni yaratildi. Yosh tadbirkorlar bilan muloqot qilish tuman hokimi Jasurbek Abduraimov, sektor raxbari, IIB boshligi Dilshodbek Tojiboev yoshlar sanoat zonasida bo'lib, ishlab chiqarilgan mahsulotlar namunalari bilan tanishishdi.Tadbirkorlar takliflari ijrosi bo'yicha masullarga topshiriqlar berildi.",
@@ -181,7 +181,7 @@ export const news = [
         id: randomId(),
         title: "Baliqchi tumani hokimligi faollar zalida hokim va yoshlar uchrashuvi o'tkazildi",
         subTitle:
-            "Qishloq xo‘jaligi vazirligi huzuridagi Qishloq xo‘jaligida xizmatlar ko‘rsatish agentligi va Birlashgan Arab Amirliklari hamkorligida Andijon viloyati Paxtaobod tumani hududida 470 gektar yer maydonida bog‘ yaratilmoqda.",
+            "Qishloq xo'jaligi vazirligi huzuridagi Qishloq xo'jaligida xizmatlar ko'rsatish agentligi va Birlashgan Arab Amirliklari hamkorligida Andijon viloyati Paxtaobod tumani hududida 470 gektar yer maydonida bog' yaratilmoqda.",
         image: [new2],
         description: [
             "Tuman hokimi Jasurbek Abduraimov, tuman IIB boshligi Dilshodbek Toxiboev, tuman mudofaa bulimi boshligi Kelsinboy Mirzakamolov yoshlarni garbiy vatanparvarlik ruhida tarbiyalash, Uzbekiston kurolli kuchlarida amalga oshirilayotgan islohotlar heat yoni xaqida so\'zlashdi. O\'zaro muloqot tarzida kechgan uchrashuvda yoshlar o'zlarini qiziqtirgan savollarga javob olishdi.",
@@ -383,7 +383,7 @@ export const links = [
         id: 3,
         img: adliya,
         title: 'minjust.uz',
-        description: 'O‘zbekiston Respublikasi Adliya Vazirligi',
+        description: 'O'zbekiston Respublikasi Adliya Vazirligi',
         url: 'https://adliya.uz/'
     },
     {

@@ -21,7 +21,7 @@ const XalqaroMunosabat = () => {
                         <p>2022- yilda import hajmi 10 051,6 ming AQSH dollarini, 2021- yilga nisbatan
                             158,0 foizni tashkil etdi.</p>
                         <p>Import tarkibidagi tovar va xizmatlar ulushi, % da
-                            Import tarkibida tovarlar ulushi 100,0 % ni tashkil etib, mashina va transport asbob uskunalari (79,5 %), nooziq-ovqat xomashyo, yoqilg‘idan tashqari (6,4 %), asosan material turiga qarab klassifikatsiyalangan sanoat tovarlari (4,8 %), oziq-ovqat mahsulotlari va tirik hayvonlar (3,4 %), turli xil tayyor buyumlar (3,5 %), kimyoviy vositalar va boshqa toifalarga kiritilmagan shunga o‘xshash mahsulotlar (2,4 %)ga to‘g‘ri keldi.</p>
+                            Import tarkibida tovarlar ulushi 100,0 % ni tashkil etib, mashina va transport asbob uskunalari (79,5 %), nooziq-ovqat xomashyo, yoqilg'idan tashqari (6,4 %), asosan material turiga qarab klassifikatsiyalangan sanoat tovarlari (4,8 %), oziq-ovqat mahsulotlari va tirik hayvonlar (3,4 %), turli xil tayyor buyumlar (3,5 %), kimyoviy vositalar va boshqa toifalarga kiritilmagan shunga o'xshash mahsulotlar (2,4 %)ga to'g'ri keldi.</p>
                         <div className="max-h-96 overflow-y-auto max-450:max-h-max">
                             <img src={importt} alt="" className='w-full h-auto bg-gray-300' />
                         </div>
@@ -32,7 +32,7 @@ const XalqaroMunosabat = () => {
                         <strong className='uppercase'>Eksport</strong>
                         <p>2022- yilda eksport hajmi 41 576,5 ming AQSH dollari (qimmat baho metallar eksportidan tashqari) qiymatidagi (2021- yilga nisbatan 44,9 foizni tashkil etdi) tovar va xizmatlar eksport qilinishi ta’minlandi.</p>
                         <p>Eksport tarkibidagi tovar va xizmatlar ulushi, % da</p>
-                        <p>Eksport tarkibida tovarlar ulushi 100,0 % ni tashkil etib, ular asosan material turiga qarab klassifikatsiyalangan sanoat tovarlari (87,0 %), turli xil tayyor buyumlar (7,7 %), nooziq-ovqat xomashyo, yoqilg‘idan tashqari (3,6 %), oziq-ovqat mahsulotlari va tirik hayvonlar (1,7 %) hissasiga to‘g‘ri kelmoqda.</p>
+                        <p>Eksport tarkibida tovarlar ulushi 100,0 % ni tashkil etib, ular asosan material turiga qarab klassifikatsiyalangan sanoat tovarlari (87,0 %), turli xil tayyor buyumlar (7,7 %), nooziq-ovqat xomashyo, yoqilg'idan tashqari (3,6 %), oziq-ovqat mahsulotlari va tirik hayvonlar (1,7 %) hissasiga to'g'ri kelmoqda.</p>
                         <div className="max-h-96 overflow-y-auto max-450:max-h-max">
                             <img src={exportt} alt="" className='w-full h-auto bg-gray-300' />
                         </div>
