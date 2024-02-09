@@ -2,8 +2,10 @@ import React, { useEffect } from 'react';
 // images
 import hokim from '../assets/images/other/hokim.png';
 import baliqchi from '../assets/images/svg/Frame.svg';
+// import statistika from '../assets/other-files/statistika.docx';
 const StatistikMalumotlar = () => {
     const siteLink = window.location.origin;
+    console.log(siteLink);
     useEffect(() => {
         scrollTo(0, 0);
         document.title = 'Baliqchi tuman hokimligi | Statistik ma\'lumotlar';
@@ -16,7 +18,7 @@ const StatistikMalumotlar = () => {
                         <h1 className='mb-6'>Baliqchi tuman statistik ma'lumotlari</h1>
                         <strong className="block mb-8">Quyidagi faylni yuklab olish orqali Baliqchi tumanining rasmiy statistik ma'lumotlarini ko'rishingiz mumkin. Faylni yuklab olish uchun "FAYLNI YUKLAB OLISH" tugmasini bosing</strong>
 
-                        <a href={`${siteLink}/src/assets/other-files/statistika.docx`} download className="inline-block py-3 px-6 rounded-full border-gray-400 border">Faylni yuklab olish</a>
+                        <a href="src/assets/other-files/statistika.docx" download className="inline-block py-3 px-6 rounded-full border-gray-400 border">Faylni yuklab olish</a>
                     </div>
 
                     <div className="min-w-[310px] space-y-6 max-800:hidden max-550:block max-550:min-w-0">
