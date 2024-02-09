@@ -376,7 +376,7 @@ export const links = [
         id: 2,
         img: lex,
         title: 'Lex.uz',
-        description: 'Oʻzbekiston Respublikasi Qonun hujjatlari maʼlumotlari milliy bazasi',
+        description: 'Oʻzbekiston Respublikasi Qonun hujjatlari ma'lumotlari milliy bazasi',
         url: 'https://lex.uz/uz/'
     },
     {
